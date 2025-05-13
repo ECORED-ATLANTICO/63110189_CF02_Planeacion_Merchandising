@@ -51,3 +51,80 @@ figcaption
 
 .bloque-texto-b:before
   background: $color-adicional-2
+
+  
+.tarjeta-horz
+  display: flex
+  flex-direction: column
+  align-items: center
+  img
+
+  div.texto-tarjeta
+    width: 75%
+    margin: -4em 0 auto 0
+    padding: 1.5em
+    box-shadow: 0 2px 5px rgba(0,0,0,0.17)
+    border-radius: 0.5em
+    background: $white
+    z-index: 10
+    position: relative
+
+@media screen and (max-width: 768px)
+  .ordenar_tarjeta_pasos
+    .col-lg
+      order:-1
+
+  .ordenar_div
+    .arriba
+      order:-1
+
+///////Full Width Background//////////
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/temas/bg01.svg") !important
+    background-position: top
+  &-2
+    background-image: url("../assets/curso/temas/bg02.svg") !important
+    background-size: cover  
+    background-position: top
+  &-3
+    background-image: url("../assets/curso/temas/bg03.svg") !important
+    background-position: top
+  &-4
+    // background-image: url("../assets/curso/bg4.png") !important
+    background-position: top
+    background-size: cover  
+
+.separador-container
+  padding: 25px 0 !important
+
+.pasos-a.color-acento-contenido .pasos-a__circle
+  background-color: #FFCE79
+.pasos-a.color-acento-contenido .pasos-a__linea__esquina__linea
+    border-color: #12263F
+.pasos-a.color-acento-contenido .pasos-a__numero::after
+    border-color: #12263F
+.pasos-a.color-acento-contenido .pasos-a__linea .hor-line
+    border-color: #12263F
+.pasos-a__linea__esquina__linea
+  border-radius: 0px !important
+
+.bg_01_tarjeta
+  border-radius: 5px !important
+  background-color: #E8E8E8 !important
+  border-color: #707070 !important
+
+.bordes-tarjeta
+  border-radius: 35px 0px 35px 0px !important
+
+.tarjeta-bg-03
+  background-color: #5D9037 !important

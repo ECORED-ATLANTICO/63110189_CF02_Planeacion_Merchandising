@@ -36,13 +36,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Toma de decisiones',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Concepto',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Importancia ',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Pasos',
+            hash: 't_1_3',
           },
         ],
       },

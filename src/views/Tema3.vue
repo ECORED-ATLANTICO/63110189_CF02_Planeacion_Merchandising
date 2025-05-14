@@ -240,13 +240,13 @@
         img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
       
 
-      div.tarjeta-horz.mb-4
+      div.tarjeta-horz.mb-4(data-aos="flip-up")
         img(src='@/assets/curso/temas/tema3/img_09.png', alt='Imagen decorativa')
         div.texto-tarjeta
           p.mb-0 Las técnicas de fijación de <em>merchandising</em> son estrategias puntuales que buscan posicionar el producto en la mente del consumidor, fomentar la compra y generar una experiencia diferenciadora. Estas técnicas están ligadas a cómo se muestra, organiza y destaca el producto dentro del espacio físico o digital. Seguidamente se presentan algunas de las técnicas más utilizadas:
 
           
-      .bg-full-width.bg-fondo-6.mb-0
+      .bg-full-width.bg-fondo-6.mb-0(data-aos="fade-right")
         .p-4.p-md-5.mb-0
           .row
             .col-md-6.col-sm-6.col-lg-4.mx-auto

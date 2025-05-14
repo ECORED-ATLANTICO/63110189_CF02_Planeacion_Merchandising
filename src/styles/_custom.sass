@@ -106,6 +106,14 @@ figcaption
     background-image: url("../assets/curso/temas/tema2/bg01.svg") !important
     background-position: top
     background-size: cover  
+  &-5
+    background-image: url("../assets/curso/temas/tema3/bg02.png") !important
+    background-position: top
+    background-size: cover  
+  &-6
+    background-image: url("../assets/curso/temas/tema3/bg03.svg") !important
+    background-position: top
+    background-size: cover  
 
 .separador-container
   padding: 25px 0 !important
@@ -123,7 +131,7 @@ figcaption
 
 .bg_01_tarjeta
   border-radius: 5px !important
-  background-color: #E8E8E8 !important
+  background-color: #F6F6F6 !important
   border-color: #707070 !important
 
 .bordes-tarjeta
@@ -153,3 +161,25 @@ figcaption
 .bg-color-9
   color: #4A732C
   text-color: #fff
+
+.bg_azul
+  background-image: url("../assets/curso/temas/tema3/bg_slyder.svg")
+  // background: rgb(75,138,198)
+  // background: -moz-linear-gradient(-90deg, rgba(75,138,198,1) 0%, rgba(20,61,97,1) 100%)
+  // background: -webkit-linear-gradient(-90deg, rgba(75,138,198,1) 0%, rgba(20,61,97,1) 100%)
+  // background: linear-gradient(-90deg, rgba(75,138,198,1) 0%, rgba(20,61,97,1) 100%)
+  // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4b8ac6",endColorstr="#143d61",GradientType=1)
+  .tarjeta
+    background: $white
+  .slyder-a__bullets__item
+    background-color: #7B40F2
+    border: 0 none
+    @media (max-width: 768px)
+      margin: 0 5px
+    &--active
+      background-color: #7B40F2
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: #283F65
+    color: $white
+    // background-image: url("../assets/curso/temas/tema3/arrow.svg")
+    // background-size: 16px 24px

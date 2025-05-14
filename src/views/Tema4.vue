@@ -65,33 +65,36 @@
       p.mb-2 Las metas se clasifican de acuerdo con su orientación estratégica en:
 
       .bg-full-width.bg-fondo-8.mb-0
-        .px-4.px-md-5.mb-0
-          .row.justify-content-center.align-items-center.mb-0
-            .col-md-6.col-lg-4.mb-3.mb-lg-0.p-4
-              figure(data-aos="zoom-in")
-                img(src='@/assets/curso/temas/tema4/img_05.png', alt='').img400
-            .col-lg-8.mb-3.mb-lg-0
-              SlyderF(columnas="col-12 col-md-6 col-lg-4")
-                .bg-color-white.p-4.h-100.shadow-app
-                  img(src='@/assets/curso/temas/tema4/img_06.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Comerciales
-                  p.text-center Relacionadas con el volumen de ventas, ingresos, rentabilidad o crecimiento del ticket promedio.
-                .bg-color-white.p-4.h-100.shadow-app
-                  img(src='@/assets/curso/temas/tema4/img_07.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Operativas
-                  p.text-center Afines a procesos internos, como optimizar espacios, el reponer de manera eficiente del inventario o su control.
+        .p-4.px-md-5.mb-0
 
-                .bg-color-white.p-4.h-100.shadow-app
-                  img(src='@/assets/curso/temas/tema4/img_08.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 De marketing
+          .bg-full-width.bg-color-7.mb-0
+            .px-4.px-md-5.mb-0
+              .row.justify-content-center.align-items-center.mb-0
+                .col-md-6.col-lg-4.mb-3.mb-lg-0.p-4
+                  figure(data-aos="zoom-in")
+                    img(src='@/assets/curso/temas/tema4/img_05.png', alt='').img400.w-auto.mx-auto
+                .col-lg-8.mb-3.mb-lg-0
+                  SlyderF(columnas="col-12 col-md-6 col-lg-4")
+                    .bg-color-white.p-4.h-100.shadow-app
+                      img(src='@/assets/curso/temas/tema4/img_06.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                      h5.text-center.mb-4 Comerciales
+                      p.text-center.text-small Relacionadas con el volumen de ventas, ingresos, rentabilidad o crecimiento del ticket promedio.
+                    .bg-color-white.p-4.h-100.shadow-app
+                      img(src='@/assets/curso/temas/tema4/img_07.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                      h5.text-center.mb-4 Operativas
+                      p.text-center.text-small Afines a procesos internos, como optimizar espacios, el reponer de manera eficiente del inventario o su control.
 
-                  p.text-center Dirigidas a posicionamiento de marca, recordación publicitaria, incremento de tráfico en tienda.
+                    .bg-color-white.p-4.h-100.shadow-app
+                      img(src='@/assets/curso/temas/tema4/img_08.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                      h5.text-center.mb-4 De marketing
 
-                .bg-color-white.p-4.h-100.shadow-app
-                  img(src='@/assets/curso/temas/tema4/img_09.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 De experiencia
-                  p.text-center Dirigidas a la satisfacción del cliente, tiempo de permanencia, tasa de conversión y proceso de fidelización.
+                      p.text-center.text-small Dirigidas a posicionamiento de marca, recordación publicitaria, incremento de tráfico en tienda.
 
+                    .bg-color-white.p-4.h-100.shadow-app
+                      img(src='@/assets/curso/temas/tema4/img_09.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                      h5.text-center.mb-4 De experiencia
+                      p.text-center.text-small Dirigidas a la satisfacción del cliente, tiempo de permanencia, tasa de conversión y proceso de fidelización.
+          
           .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
             .col-lg-8.mb-4
               .bloque-texto-b

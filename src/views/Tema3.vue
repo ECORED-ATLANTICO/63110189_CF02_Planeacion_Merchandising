@@ -63,7 +63,7 @@
       .col-lg-12.mb-4
         .titulo-sexto.mb-4
           h5 Figura 3. 
-          span
+          span.text-dark
             i Objetivos del <em>merchandising</em>
 
         figure.mb-4

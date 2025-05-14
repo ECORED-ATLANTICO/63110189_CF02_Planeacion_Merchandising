@@ -58,7 +58,7 @@
         .col-lg-10.mb-4
           .titulo-sexto.mb-4
             h5 Figura 1. 
-            span
+            span.text-dark
               i Importancia  de la toma de decisiones en el punto de venta
 
           figure
@@ -183,7 +183,7 @@
             .col-lg-12.mb-4
               .titulo-sexto.mb-4
                 h5 Figura 2. 
-                span
+                span.text-dark
                   i Herramientas de apoyo en la toma de decisiones
 
               figure.mb-4

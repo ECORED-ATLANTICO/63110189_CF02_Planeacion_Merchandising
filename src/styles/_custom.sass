@@ -69,7 +69,7 @@ figcaption
     z-index: 10
     position: relative
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: $bp-max-sm)
   .ordenar_tarjeta_pasos
     .col-lg
       order:-1
@@ -87,6 +87,9 @@ figcaption
   @media screen and (max-width: $bp-max-sm)
     padding-left: 1.5rem
     padding-right: 1.5rem
+  @media screen and (max-width: $bp-max-xs)
+    padding-left: 2.5rem
+    padding-right: 2.5rem
 
 .bg-fondo
   &-1
@@ -100,7 +103,7 @@ figcaption
     background-image: url("../assets/curso/temas/bg03.svg") !important
     background-position: top
   &-4
-    // background-image: url("../assets/curso/bg4.png") !important
+    background-image: url("../assets/curso/temas/tema2/bg01.svg") !important
     background-position: top
     background-size: cover  
 
@@ -128,3 +131,25 @@ figcaption
 
 .tarjeta-bg-03
   background-color: #5D9037 !important
+
+.tabs-c.color-acento-contenido .tabs-c__tab--active
+  border-bottom-color: #FFCE79 !important
+
+.tabs-c.color-acento-contenido .tabs-c__tab--active:before
+  border-top-color: #FFCE79 !important
+  
+.tabs-c__content-item
+  background-color: #F7F7F7 !important
+
+.tabs-c__header
+  margin-bottom: 0px !important
+
+.tabs-c
+  border-bottom: 0px !important
+
+.lista-ol--separador li, .lista-ul--separador li
+  border-bottom: dashed 1px #b0c0d2
+
+.bg-color-9
+  color: #4A732C
+  text-color: #fff

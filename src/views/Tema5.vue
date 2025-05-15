@@ -55,7 +55,6 @@
                   img.titulo-con-imagen__imagen(src="@/assets/curso/temas/tema5/icon_01.svg" alt="")
                   h3.titulo-con-imagen__texto Condicionantes del comportamiento de los consumidores
 
-
     .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
       TabsC.color-acento-contenido.mb-3
         .py-3.py-md-4(titulo="Personales").p-4
@@ -120,7 +119,6 @@
 
     separador
           
-
     .bg-full-width.bg-fondo-10.mb-0
       .p-4.p-md-5.mb-0
         div.mb-0(data-aos="fade-right")
@@ -142,7 +140,6 @@
                   h4.mb-3.text-center Impulsivo
                   p.mb-0 El cliente realiza una compra sin haberla planificado, guiado por un estímulo momentáneo.
 
-
             .col-xl-3.col-lg-7.col-md-6.col-11.mb-4.mb-xl-0
               .crd_hover_txt(data-aos="flip-left")
                 .crd_hover_txt--img
@@ -152,7 +149,6 @@
                   h4.mb-3.text-center Planificado
                   p.mb-0 El consumidor llega al establecimiento con una intención clara de compra, basada en una necesidad identificada previamente.
 
-
             .col-xl-3.col-lg-7.col-md-6.col-11.mb-4.mb-xl-0
               .crd_hover_txt(data-aos="flip-left")
                 .crd_hover_txt--img
@@ -161,7 +157,6 @@
                 .crd_hover_txt--body.text-white
                   h4.mb-3.text-center Exploratorio
                   p.mb-0 Se da cuando el cliente recorre el local sin una intención concreta, con disposición a descubrir novedades o promociones.
-
 
             .col-xl-3.col-lg-7.col-md-6.col-11.mb-4.mb-xl-0
               .crd_hover_txt(data-aos="flip-left")

@@ -59,32 +59,117 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: '<em>Merchandising</em>',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Concepto',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Tipos y características',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Objetivos de <em>merchandising</em>',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Concepto',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Tipos y características',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Técnicas de fijación',
+            hash: 't_3_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Tema 4',
+        titulo: 'Metas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Características de las metas',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Tipos de metas en el contexto del punto de venta  ',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Ejemplos de metas',
+            hash: 't_4_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Tema 5',
+        titulo: 'Comportamiento del consumidor',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Factores ',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Tipos y características',
+            hash: 't_5_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: 'Tema 6',
+        titulo: 'Estrategias del <em>merchandising</em>',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Concepto',
+            hash: 't_6_1',
+          },
+          {
+            numero: '6.2',
+            titulo: 'Tipos y características',
+            hash: 't_6_2',
+          },
+          {
+            numero: '6.3',
+            titulo: 'Planogramas',
+            hash: 't_6_3',
+          },
+          {
+            numero: '6.4',
+            titulo: 'Teoría del color',
+            hash: 't_6_4',
+          },
+          {
+            numero: '6.5',
+            titulo: 'Escaparatismo',
+            hash: 't_6_5',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -134,22 +219,187 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Toma de decisiones',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2021). Toma de decisiones [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=J5JP7YxPqAw',
+    },
+    {
+      tema: 'Merchandising',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2021). Introducción al merchandising [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=D9O4iU9xSaA',
+    },
+    {
+      tema: 'Objetivos de merchandising',
+      referencia:
+        'Caroling Flórez. (2017). Manual de visual merchandising. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=DM2N3XrZl0Q',
+    },
+    {
+      tema: 'Estrategias del merchandising',
+      referencia:
+        'Liliana BG. (2021, 5 de octubre). ¿Para qué sirve la planimetría en el merchandising? [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=8pNtNOzgu3c&ab_channel=LilianaBG',
     },
   ],
+
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Benchmarking',
+      significado:
+        'Proceso de comparación de prácticas y resultados con los de empresas líderes para mejorar el desempeño propio.',
+    },
+    {
+      termino: 'Cliente',
+      significado:
+        'Persona o entidad que adquiere bienes o servicios a cambio de una compensación económica.',
+    },
+    {
+      termino: 'Comportamiento del consumidor',
+      significado:
+        'Conjunto de decisiones, hábitos y motivaciones que influyen en la compra de productos o servicios.',
+    },
+    {
+      termino: 'Estrategia',
+      significado:
+        'Conjunto de acciones planificadas para alcanzar objetivos específicos en un contexto competitivo.',
+    },
+    {
+      termino: 'Experiencia del cliente',
+      significado:
+        'Percepción total que tiene un consumidor sobre una marca durante toda su relación con ella.',
+    },
+    {
+      termino: 'Layout',
+      significado:
+        'Distribución física del mobiliario y productos dentro del punto de venta.',
+    },
+    {
+      termino: 'Marketing',
+      significado:
+        'Conjunto de técnicas y estudios para mejorar la comercialización de productos o servicios.',
+    },
+    {
+      termino: 'Marketing sensorial',
+      significado:
+        'Estrategia que utiliza los sentidos para generar emociones y asociaciones positivas en los clientes.',
+    },
+    {
+      termino: 'Merchandising',
+      significado:
+        'Técnicas utilizadas en el punto de venta para influir en la decisión de compra del consumidor.',
+    },
+    {
+      termino: 'Metas',
+      significado:
+        'Resultados específicos que se esperan alcanzar como parte de un objetivo general.',
+    },
+    {
+      termino: 'Neuromarketing',
+      significado:
+        'Aplicación de conocimientos de neurociencia al marketing para entender mejor el comportamiento del consumidor.',
+    },
+    {
+      termino: 'Objetivo',
+      significado:
+        'Resultado deseado que se pretende alcanzar mediante acciones planificadas.',
+    },
+    {
+      termino: 'Punto de venta',
+      significado:
+        'Lugar físico o virtual donde se realiza la venta de bienes o servicios.',
+    },
+    {
+      termino: 'Publicidad',
+      significado:
+        'Comunicación dirigida a influir en las decisiones de compra mediante medios visuales, auditivos o digitales.',
+    },
+    {
+      termino: 'Segmentación',
+      significado:
+        'Proceso de dividir el mercado en grupos homogéneos para personalizar estrategias de marketing.',
+    },
+    {
+      termino: 'SKU',
+      significado:
+        'Código único que identifica cada referencia o presentación de un producto en inventario.',
+    },
+    {
+      termino: 'Visual merchandising',
+      significado:
+        'Estrategia visual para presentar productos en el punto de venta de forma atractiva y funcional.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Chiavenato, I. (2011). Administración: teoría, proceso y práctica. McGraw-Hill.',
       link: '',
+    },
+    {
+      referencia:
+        'Gómez, A. (2020). Merchandising: estrategias para el punto de venta. Editorial Marketing y Ventas.',
+      link: '',
+    },
+    {
+      referencia:
+        'González, J. L. (2019). Merchandising y promoción en el punto de venta. ESIC Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Kotler, P. & Keller, K. (2016). Dirección de marketing. Pearson Educación.',
+      link: '',
+    },
+    {
+      referencia:
+        'Kotler, P. & Armstrong, G. (2017). Fundamentos de marketing. Pearson.',
+      link: '',
+    },
+    {
+      referencia:
+        'Lamb, C., Hair, J. & McDaniel, C. (2011). Marketing. Cengage Learning.',
+      link: '',
+    },
+    {
+      referencia:
+        'Peñaloza, L. (2019). Marketing experiencial: más allá del producto y del servicio. Editorial Ecoe.',
+      link: '',
+    },
+    {
+      referencia:
+        'Robbins, S. P. & Coulter, M. (2018). Administración. Pearson Educación.',
+      link: '',
+    },
+    {
+      referencia:
+        'Sánchez, L. (2019). Gestión comercial aplicada. Ediciones SENA.',
+      link: '',
+    },
+    {
+      referencia:
+        'Schiffman, L. G. & Kanuk, L. L. (2010). Comportamiento del consumidor. Pearson.',
+      link: '',
+    },
+    {
+      referencia:
+        'Solé, C. (2017). Merchandising: cómo aumentar la rentabilidad en el punto de venta. Profit Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Solomon, M. (2018). Comportamiento del consumidor: comprando, poseyendo y siendo. Pearson Educación.',
+      link: '',
+    },
+    {
+      referencia:
+        'Niazi, R. (2023). Proceso eficaz de creación de planogramas: Cómo optimizar la planificación de su espacio comercial. Quant Retail.',
+      link: 'https://www.quantretail.com/automatic-planogram-updates',
     },
   ],
   creditos: [

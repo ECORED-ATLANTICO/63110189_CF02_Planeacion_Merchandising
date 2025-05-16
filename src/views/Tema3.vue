@@ -27,12 +27,12 @@
             h3.position-relative#t_3_1 3.1	Concepto
               img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
         
-          .col-lg-9.mb-3
+          .col-lg-9.mb-4
             .bloque-texto-b.mb-3
               .bloque-texto-b__texto
                 i.fas.fa-quote-left
                 p.mb-0
-                  b El merchandising puede definirse como el conjunto de acciones orientadas a estimular la compra en el punto de venta, mediante la disposición, presentación y ambientación de los productos de forma estratégica.” 
+                  b El <em>merchandising</em> puede definirse como el conjunto de acciones orientadas a estimular la compra en el punto de venta, mediante la disposición, presentación y ambientación de los productos de forma estratégica.” 
                 p.text-right 
                   <br> (Kotler & Keller, 2016).
                 i.fas.fa-quote-right
@@ -71,7 +71,7 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure.mb-3
-                img(src='@/assets/curso/temas/tema3/img_03.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img_03.svg', alt='Imagen Decorativa')
 
               figcaption 
                 b Fuente: 
@@ -114,7 +114,7 @@
         h3.position-relative#t_3_2 3.2	Tipos y características
           img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
 
-        p.mb-3 Existen distintos tipos de merchandising, clasificados según su función y aplicación. Seguidamente se presenta una tabla con los principales tipos:
+        p.mb-3 Existen distintos tipos de <em>merchandising</em>, clasificados según su función y aplicación. Seguidamente se presenta una tabla con los principales tipos:
         .row
           .col-md-12.col-sm-12.mx-auto
             .tarjeta.bg_azul.mb-5.p-3
@@ -239,7 +239,7 @@
       .bg-full-width.bg-fondo-6.mb-0(data-aos="fade-right")
         .p-4.p-md-5.mb-0
           .row
-            .col-md-6.col-sm-6.col-lg-4.mx-auto
+            .col-md-6.col-8.col-lg-4.mx-auto.mb-4
               figure
                 img(src='@/assets/curso/temas/tema3/img_10.png', alt='Imagen Decorativa')
         
@@ -278,7 +278,7 @@
                       
                       .col-md-12.col-lg-10.mb-4.mb-md-0
                         p 
-                          strong Cross merchandising
+                          strong Cross <em>merchandising</em>
                         p Agrupación de productos complementarios para estimular compras adicionales.
                         ul.lista-ul.mb-3
                           li 
@@ -306,7 +306,7 @@
                       
                       .col-md-12.col-lg-10.mb-4.mb-md-0
                         p 
-                          strong Merchandising estacional
+                          strong <em>Merchandising</em> estacional
                         p Adaptación en el punto de venta a campañas, festividades y fechas especiales.
                         ul.lista-ul.mb-3
                           li 

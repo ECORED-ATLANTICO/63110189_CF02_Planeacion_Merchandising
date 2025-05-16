@@ -26,6 +26,7 @@
     transform: translateX(30px)
   100%
     transform: translateX(0px)
+
 .banner-principal
   &__info
     padding: 0 3rem
@@ -46,13 +47,16 @@
 .banner-interno__titulo__icono i
   color: $color-primario
 
+.banner-interno__fondo
+  background: url("../assets/curso/portada/fondo-banner-secundario.svg") no-repeat center center !important
+  background-size: cover
+
 figcaption
   font-weight: normal
 
 .bloque-texto-b:before
   background: $color-adicional-2
 
-  
 .tarjeta-horz
   display: flex
   flex-direction: column
@@ -78,7 +82,6 @@ figcaption
     .arriba
       order: -1
 
-
 ///////Full Width Background//////////
 .bg-full-width
   background-size: cover
@@ -95,10 +98,10 @@ figcaption
 .bg-fondo
   &-1
     background-image: url("../assets/curso/temas/tema1/bg01.png") !important
-    background-position: top
+    background-position: top left
   &-2
     background-image: url("../assets/curso/temas/tema1/bg02.png") !important
-    background-size: cover  
+    background-size: cover
     background-position: top
   &-3
     background-image: url("../assets/curso/temas/tema1/bg01.png") !important
@@ -106,47 +109,47 @@ figcaption
   &-4
     background-image: url("../assets/curso/temas/tema2/bg01.png") !important
     background-position: top
-    background-size: cover  
+    background-size: cover
   &-5
     background-image: url("../assets/curso/temas/tema3/bg02.png") !important
     background-position: top
-    background-size: cover  
+    background-size: cover
   &-6
     background-image: url("../assets/curso/temas/tema3/bg03.png") !important
     background-position: top
-    background-size: cover  
+    background-size: cover
   &-7
     background-image: url("../assets/curso/temas/tema4/bg01.png") !important
     background-position: top
-    background-size: cover  
+    background-size: cover
   &-8
     background-image: url("../assets/curso/temas/tema4/bg02.png") !important
     background-position: top
-    background-size: cover  
+    background-size: cover
   &-9
     background-image: url("../assets/curso/temas/tema5/bg01.png") !important
     background-position: top
-    background-size: cover  
+    background-size: cover
   &-10
     background-image: url("../assets/curso/temas/tema5/bg02.png") !important
     background-position: top
-    background-size: cover  
+    background-size: cover
   &-11
     background-image: url("../assets/curso/temas/tema6/bg01.png") !important
     background-position: top
-    background-size: cover  
+    background-size: cover
   &-12
     background-image: url("../assets/curso/temas/tema6/bg02.png") !important
     background-position: top
-    background-size: cover  
+    background-size: cover
   &-13
     background-image: url("../assets/curso/temas/tema6/bg03.png") !important
     background-position: top
-    background-size: cover   
+    background-size: cover
   &-14
     background-image: url("../assets/curso/temas/intro/bg01.png") !important
     background-position: top
-    background-size: cover  
+    background-size: cover
 
 .separador-container
   padding: 25px 0 !important
@@ -154,11 +157,11 @@ figcaption
 .pasos-a.color-acento-contenido .pasos-a__circle
   background-color: #FFCE79
 .pasos-a.color-acento-contenido .pasos-a__linea__esquina__linea
-    border-color: #12263F
+  border-color: #12263F
 .pasos-a.color-acento-contenido .pasos-a__numero::after
-    border-color: #12263F
+  border-color: #12263F
 .pasos-a.color-acento-contenido .pasos-a__linea .hor-line
-    border-color: #12263F
+  border-color: #12263F
 .pasos-a__linea__esquina__linea
   border-radius: 0px !important
 
@@ -185,7 +188,7 @@ figcaption
 
 .tabs-c.color-acento-contenido .tabs-c__tab--active:before
   border-top-color: #FFCE79 !important
-  
+
 .tabs-c__content-item
   background-color: #F7F7F7 !important
 
@@ -220,7 +223,7 @@ figcaption
     &--active
       background-color: #7B40F2
   .slyder-a__btn--sigt, .slyder-a__btn--atrs
-    background-color: #283F65
+    background-color: #7B40F2
     color: $white
     // background-image: url("../assets/curso/temas/tema3/arrow.svg")
     // background-size: 16px 24px
@@ -250,7 +253,6 @@ figcaption
   margin: 0
   padding-left: 20px
 
-
 .fondo_blanco_bordes
   background-color: white
   border-radius: inherit
@@ -258,33 +260,31 @@ figcaption
 
 .bg-color-7
   background-color: #eaecf0
-  
+
 .bg-color-white
   background-color: #FAFAFA
   border-radius: 10px
 
-
-  
 ///////// Card hover --------------------------------------
 .crd_hover_txt
-  position: relative  
+  position: relative
   padding: 0 !important
-  overflow: hidden !important  
+  overflow: hidden !important
   border-radius: 10px !important
-  &:hover    
-    .crd_hover_txt--body   
-      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+  &:hover
+    .crd_hover_txt--body
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
       transform: translateY(0)
 
   .crd_hover_txt--body
     position: absolute
     padding: 1.5rem
-    bottom: 0    
+    bottom: 0
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
     background-color: #33490B
-  
-  @media (min-width:1200px) and (max-width:1400px)  
+
+  @media (min-width:1200px) and (max-width:1400px)
     .crd_hover_txt--body
       p
         font-size: 0.85em

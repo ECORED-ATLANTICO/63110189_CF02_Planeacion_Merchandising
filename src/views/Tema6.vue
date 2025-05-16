@@ -28,7 +28,7 @@
           p.mb-0 La experiencia del cliente en el punto de venta se construye a partir de diversas estrategias que, aplicadas de manera coherente, influyen en el comportamiento del consumidor, incrementan el tiempo de permanencia y fomentan la fidelización. Estas estrategias abarcan tanto el diseño físico del espacio como el uso de estímulos sensoriales y tecnológicos, así como la interacción humana. A continuación, se presentan los principales tipos y características de las estrategias que contribuyen a una experiencia de compra memorable y efectiva.
 
     .row.justify-content-center.mb-3
-      .col-md-6.col-lg-5.mb-3
+      .col-8.col-md-6.col-lg-5.mb-4
         figure
           img(src="@/assets/curso/temas/tema6/img_02.png", alt="").w-auto.mx-auto
       .col-lg-7.mb-3
@@ -70,7 +70,7 @@
 
               figure.mb-4
                 figure.mb-3
-                  img(src='@/assets/curso/temas/tema6/img_04.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema6/img_04.svg', alt='Imagen Decorativa')
 
                 figcaption 
                   b Fuente: 
@@ -109,7 +109,7 @@
                   td Se usa software especializado y se valida con gestores de categoría.
                   td Alinear el diseño con metas comerciales.
                 tr.bg-white
-                  td 5. Formación del personal en visual merchandising
+                  td 5. Formación del personal en visual <em>merchandising</em>
                   td Se capacita al equipo sobre el uso del software y normas de exhibición.
                   td Asegurar ejecución coherente en tiendas.
                 tr.tabla-bg-02
@@ -166,7 +166,7 @@
 
               figure.mb-4
                 figure.mb-3
-                  img(src='@/assets/curso/temas/tema6/img_05.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema6/img_05.svg', alt='Imagen Decorativa')
 
                 figcaption 
                   b Fuente: 
@@ -185,17 +185,17 @@
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema6/img_06.png', alt='').img400.w-auto.mx-auto
             .col-lg-8.mb-4
-              p En el ámbito del marketing y el merchandising, el color es una herramienta estratégica clave que influye directamente en las emociones, decisiones de compra y comportamiento del consumidor. Cada color transmite sensaciones y valores distintos, lo cual permite a las marcas y establecimientos generar atmósferas específicas, reforzar su identidad visual y destacar productos o promociones. 
+              p En el ámbito del marketing y el <em>merchandising</em>, el color es una herramienta estratégica clave que influye directamente en las emociones, decisiones de compra y comportamiento del consumidor. Cada color transmite sensaciones y valores distintos, lo cual permite a las marcas y establecimientos generar atmósferas específicas, reforzar su identidad visual y destacar productos o promociones. 
                   
               .cajon.bg-03.p-4
-                p.mb-0 El uso adecuado del color en los espacios comerciales no solo atrae la atención del cliente, sino que también puede mejorar la experiencia de compra, incrementar el tiempo de permanencia en el punto de venta y favorecer la fidelización. Según Kotler y Armstrong (2018), el color, al igual que otros estímulos visuales, tiene un impacto significativo en la percepción del consumidor y en sus decisiones dentro del entorno de compra. A continuación, se presenta una tabla con los principales colores utilizados en merchandising, su impacto psicológico, beneficios y aplicaciones más comunes.
+                p.mb-0 El uso adecuado del color en los espacios comerciales no solo atrae la atención del cliente, sino que también puede mejorar la experiencia de compra, incrementar el tiempo de permanencia en el punto de venta y favorecer la fidelización. Según Kotler y Armstrong (2018), el color, al igual que otros estímulos visuales, tiene un impacto significativo en la percepción del consumidor y en sus decisiones dentro del entorno de compra. A continuación, se presenta una tabla con los principales colores utilizados en <em>merchandising</em>, su impacto psicológico, beneficios y aplicaciones más comunes.
 
           .row.justify-content-center
             .col-lg-12.mb-0
               .titulo-sexto.mb-4
                 h5 Tabla 2. 
                 span.text-dark
-                  i Uso del color en el merchandising
+                  i Uso del color en el <em>merchandising</em>
             
               .tabla-a.color-acento-botones
                 table

@@ -17,10 +17,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Aspectos teóricos del merchandising',
+      tema: 'Aspectos teóricos del <em>merchandising</em>',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión de los conceptos teóricos del merchandising, estrategias y su aplicabilidad en el punto de venta.',
+        '<b> Objetivo:</b> Evaluar la comprensión de los conceptos teóricos del <em>merchandising</em>, estrategias y su aplicabilidad en el punto de venta.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',

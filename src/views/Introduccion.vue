@@ -22,7 +22,7 @@
               .bloque-texto-b__texto
                 i.fas.fa-quote-left
                 p.mb-0
-                  b Elementos como el diseño del espacio, el comportamiento del consumidor y las técnicas de merchandising son fundamentales para crear experiencias memorables y diferenciadoras.
+                  b Elementos como el diseño del espacio, el comportamiento del consumidor y las técnicas de <em>merchandising</em> son fundamentales para crear experiencias memorables y diferenciadoras.
                 p.text-right 
                   <br> Kotler & Keller, (2016). 
                 i.fas.fa-quote-right
@@ -42,9 +42,9 @@
           .col-lg-4.col-md-8.align-content-center
             figure
               img.my-3(src='@/assets/curso/temas/intro/img02.png', alt='Imagen decorativa')
-    .video
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/z0MmMl9TmKk?si=bjWVQ4eIuGSBBj6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    figcaption Nota: Sena (2024).   
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/z0MmMl9TmKk?si=bjWVQ4eIuGSBBj6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Nota: Sena (2024).   
     
 </template>
 

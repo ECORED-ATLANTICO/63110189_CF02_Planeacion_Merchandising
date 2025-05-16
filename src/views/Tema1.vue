@@ -39,7 +39,7 @@
           figure
             img(src='@/assets/curso/temas/tema1/img_03.png', alt='Imagen decorativa')
         .col-lg-8.mb-4
-          .bloque-texto-b
+          .bloque-texto-b.mb-3
             .bloque-texto-b__texto
               i.fas.fa-quote-left
               p.mb-0
@@ -65,7 +65,7 @@
             ImagenInfografica.color-acento-botones
               template(v-slot:imagen)
                 figure.mb-3
-                  img(src='@/assets/curso/temas/tema1/img_04.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema1/img_04.svg', alt='Texto que describa la imagen')
 
                 figcaption 
                   b Fuente: 

@@ -27,20 +27,20 @@
 
     div.mb-0(data-aos="fade-right")
       h3.position-relative#t_4_1 4.1	Concepto
-        img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
+        img.w-auto.pt-2.mb-4(src='@/assets/curso/temas/border_title.svg', alt='')
 
       .row.justify-content-center.align-items-center
         .col-lg-12.mb-4
-          .bloque-texto-g.bloque-texto-g.p-3.p-sm-4.p-md-5.color-secundario
+          .bloque-texto-g.bloque-texto-g.p-3.p-sm-4.p-md-5.color-secundario.mb-3
             .bloque-texto-g__img(
               :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img_02.png')})`}"
             )
             .bloque-texto-g__texto.p-4
               p Las metas deben cumplir con las características SMART, un acrónimo que resume los criterios fundamentales para su formulación:
 
-        .col-md-12.col-lg-10.mb-3
+        .col-md-12.col-lg-10.mb-4
           figure(data-aos="zoom-in")
-            img(src='@/assets/curso/temas/tema4/img_03.svg', alt='').img400.m-auto
+            img(src='@/assets/curso/temas/tema4/img_03.svg', alt='').img400.m-auto.w-auto.mb-3
 
 
         .col-lg-10.mb-4
@@ -69,7 +69,7 @@
 
           .bg-full-width.bg-color-7.mb-0
             .px-4.px-md-5.mb-0
-              .row.justify-content-center.align-items-center.mb-0
+              .row.justify-content-center.align-items-center.mb-0.p-3
                 .col-md-6.col-lg-4.mb-3.mb-lg-0.p-4
                   figure(data-aos="zoom-in")
                     img(src='@/assets/curso/temas/tema4/img_05.png', alt='').img400.w-auto.mx-auto
@@ -109,7 +109,7 @@
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema4/img_11.png', alt='').img400
 
-          p Como lo señalan Lamb, Hair y McDaniel (2019), las metas proporcionan una referencia fundamental para evaluar el desempeño y motivar al equipo, dado que fomentan el sentido de propósito y dirección compartida en la organización.  
+          p.mb-4 Como lo señalan Lamb, Hair y McDaniel (2019), las metas proporcionan una referencia fundamental para evaluar el desempeño y motivar al equipo, dado que fomentan el sentido de propósito y dirección compartida en la organización.  
 
           .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
             .col-lg-12.mb-4
@@ -130,9 +130,9 @@
 
     div.mb-0(data-aos="fade-right")
       h3.position-relative#t_4_3 4.3 Ejemplos de metas
-        img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
+        img.w-auto.pt-2.mb-4(src='@/assets/curso/temas/border_title.svg', alt='')
 
-      .row.justify-content-center.ordenar_div
+      .row.justify-content-center.align-items-center.ordenar_div
         .col-md-6.col-lg-4
           figure(data-aos="zoom-in")
             img(src='@/assets/curso/temas/tema4/img_12.png', alt='').img400.m-auto

@@ -20,7 +20,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img_01.png', alt='Imagen decorativa')
             .col-lg-8.mb-4
-              .bloque-texto-b
+              .bloque-texto-b.mb-3
                 .bloque-texto-b__texto
                   i.fas.fa-quote-left
                   p.mb-0

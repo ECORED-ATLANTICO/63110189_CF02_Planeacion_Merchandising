@@ -30,7 +30,7 @@
                 .bloque-texto-b__texto
                   i.fas.fa-quote-left
                   p.mb-0
-                    b la experiencia de compra no solo se ve afectada por la necesidad del consumidor, sino también por factores del entorno como la disposición de los productos, el ambiente físico y las interacciones con el personal.” 
+                    b La experiencia de compra no solo se ve afectada por la necesidad del consumidor, sino también por factores del entorno como la disposición de los productos, el ambiente físico y las interacciones con el personal.” 
                   p.text-right 
                     <br>  Kotler y Keller, (2016).
                   i.fas.fa-quote-right

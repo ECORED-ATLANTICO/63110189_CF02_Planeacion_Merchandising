@@ -55,7 +55,7 @@
         .p-4.p-md-5.mb-0
           .row.justify-content-center.align-items-center
             .col-lg-12.mb-4
-              .bloque-texto-g.bloque-texto-g.p-3.p-sm-4.p-md-5.color-secundario
+              .bloque-texto-g.bloque-texto-g.p-3.p-sm-4.p-md-5.color-secundario.mb-3
                 .bloque-texto-g__img(
                   :style="{'background-image': `url(${require('@/assets/curso/temas/tema6/img_03.png')})`}"
                 )
@@ -125,17 +125,17 @@
         .p-4.px-md-5.mb-0
 
           .row.justify-content-center.align-items-center.mb-0
-            .col-md-6.col-lg-4.mb-3.mb-lg-0.p-4
+            .col-md-6.col-lg-4.mb-3.p-4
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema6/img_04.png', alt='').img400.w-auto.mx-auto
-            .col-lg-8.mb-3.mb-lg-0
+            .col-lg-8.mb-3
               p El uso de herramientas tecnológicas en la creación de planogramas permite una planificación precisa y eficiente del espacio comercial. A través de software especializado, los equipos pueden visualizar, ajustar y validar la ubicación de productos, mejorando tanto la presentación como el impacto en el comportamiento del consumidor.
                   
               .cajon.bg-03.p-4
                 p.mb-0 Los planogramas, cuando se aplican de forma estratégica, se convierten en una herramienta clave para mejorar el desempeño del punto de venta, aportando beneficios concretos que impactan tanto en la gestión interna como en la satisfacción del cliente.
 
             .col-lg-10.mb-4
-              .tabla-a.color-acento-botones
+              .tabla-a.color-acento-botones.mb-3
                 table
                   thead
                     tr
@@ -181,10 +181,10 @@
             img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
 
           .row.justify-content-center.align-items-center.mb-0
-            .col-md-6.col-lg-4.mb-3.mb-lg-0.p-4
+            .col-md-6.col-lg-4.mb-4.p-4
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema6/img_06.png', alt='').img400.w-auto.mx-auto
-            .col-lg-8.mb-3.mb-lg-0
+            .col-lg-8.mb-4
               p En el ámbito del marketing y el merchandising, el color es una herramienta estratégica clave que influye directamente en las emociones, decisiones de compra y comportamiento del consumidor. Cada color transmite sensaciones y valores distintos, lo cual permite a las marcas y establecimientos generar atmósferas específicas, reforzar su identidad visual y destacar productos o promociones. 
                   
               .cajon.bg-03.p-4
@@ -257,44 +257,44 @@
 
     .bg-full-width.bg-fondo-13.mb-0
       .p-4.p-md-5.mb-0
-        div.mb-0(data-aos="fade-right")
+        div.mb-4(data-aos="fade-right")
           h3.position-relative#t_6_5 6.5 Escaparatismo
             img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
 
-        p El escaparatismo es una herramienta clave en el marketing visual que busca captar la atención del cliente desde el exterior del punto de venta. Uno de sus elementos principales es el diseño visual, que combina aspectos como colores, formas, estilos e iluminación para reflejar la identidad del negocio y atraer al público desde la primera mirada (González, 2019). Se debe tener en cuenta:
+          p.mb-4 El escaparatismo es una herramienta clave en el marketing visual que busca captar la atención del cliente desde el exterior del punto de venta. Uno de sus elementos principales es el diseño visual, que combina aspectos como colores, formas, estilos e iluminación para reflejar la identidad del negocio y atraer al público desde la primera mirada (González, 2019). Se debe tener en cuenta:
 
-        .bg-full-width.bg-color-7.mb-0
-          .px-4.px-md-5.mb-0
-            .row.justify-content-center.align-items-center.mb-0
-              .col-md-6.col-lg-4.mb-3.mb-lg-0.p-4
-                figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/temas/tema6/img_07.png', alt='').img400.w-auto.mx-auto
-              .col-lg-8.mb-3.mb-lg-0
-                SlyderF(columnas="col-12 col-md-6 col-lg-6")
-                  .bg-color-white.p-4.h-100.shadow-app
-                    img(src='@/assets/curso/temas/tema6/img_08.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                    h5.text-center.mb-4 La tematización
-                    p.text-center.text-small Es la creación de conceptos visuales asociados a eventos especiales, temporadas o campañas promocionales. Esto ayuda a generar una conexión emocional con los consumidores y a hacer que la experiencia de compra sea más memorable.
-                  
-                  .bg-color-white.p-4.h-100.shadow-app
-                    img(src='@/assets/curso/temas/tema6/img_09.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                    h5.text-center.mb-4 La iluminación estratégica
-                    p.text-center.text-small También cumple un rol crucial, al colocar luz sobre ciertos productos o zonas, se logra resaltar lo más relevante, guiar la mirada del cliente y aumentar la percepción de valor de los artículos exhibidos.
+          .bg-full-width.bg-color-7.mb-0
+            .px-4.px-md-5.mb-0
+              .row.justify-content-center.align-items-center.mb-0.p-3
+                .col-md-6.col-lg-4.mb-3.mb-lg-0.p-4
+                  figure(data-aos="zoom-in")
+                    img(src='@/assets/curso/temas/tema6/img_07.png', alt='').img400.w-auto.mx-auto
+                .col-lg-8.mb-3.mb-lg-0
+                  SlyderF(columnas="col-12 col-md-6 col-lg-6")
+                    .bg-color-white.p-4.h-100.shadow-app
+                      img(src='@/assets/curso/temas/tema6/img_08.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                      h5.text-center.mb-4 La tematización
+                      p.text-center.text-small Es la creación de conceptos visuales asociados a eventos especiales, temporadas o campañas promocionales. Esto ayuda a generar una conexión emocional con los consumidores y a hacer que la experiencia de compra sea más memorable.
+                    
+                    .bg-color-white.p-4.h-100.shadow-app
+                      img(src='@/assets/curso/temas/tema6/img_09.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                      h5.text-center.mb-4 La iluminación estratégica
+                      p.text-center.text-small También cumple un rol crucial, al colocar luz sobre ciertos productos o zonas, se logra resaltar lo más relevante, guiar la mirada del cliente y aumentar la percepción de valor de los artículos exhibidos.
 
-                  .bg-color-white.p-4.h-100.shadow-app
-                    img(src='@/assets/curso/temas/tema6/img_10.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                    h5.text-center.mb-4 La buena distribución del espacio
-                    p.text-center.text-small En la vitrina evita la saturación visual y permite que el mensaje llegue con claridad. Al equilibrar los elementos, se facilita la lectura del concepto visual y se optimiza el uso del espacio disponible.
+                    .bg-color-white.p-4.h-100.shadow-app
+                      img(src='@/assets/curso/temas/tema6/img_10.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                      h5.text-center.mb-4 La buena distribución del espacio
+                      p.text-center.text-small En la vitrina evita la saturación visual y permite que el mensaje llegue con claridad. Al equilibrar los elementos, se facilita la lectura del concepto visual y se optimiza el uso del espacio disponible.
 
-                  .bg-color-white.p-4.h-100.shadow-app
-                    img(src='@/assets/curso/temas/tema6/img_11.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                    h5.text-center.mb-4 La renovación frecuente
-                    p.text-center.text-small Adaptándola a fechas clave o a nuevas promociones. Esta actualización mantiene la atención del cliente, crea un sentido de novedad constante y puede motivar visitas recurrentes al establecimiento.
-        
-                  .bg-color-white.p-4.h-100.shadow-app
-                    img(src='@/assets/curso/temas/tema6/img_12.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                    h5.text-center.mb-4 El enfoque en productos estratégicos
-                    p.text-center.text-small Dentro de la vitrina permite dirigir el interés hacia artículos de alta rotación o con ofertas destacadas, favoreciendo su venta y aprovechando al máximo el espacio de exhibición. 
+                    .bg-color-white.p-4.h-100.shadow-app
+                      img(src='@/assets/curso/temas/tema6/img_11.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                      h5.text-center.mb-4 La renovación frecuente
+                      p.text-center.text-small Adaptándola a fechas clave o a nuevas promociones. Esta actualización mantiene la atención del cliente, crea un sentido de novedad constante y puede motivar visitas recurrentes al establecimiento.
+          
+                    .bg-color-white.p-4.h-100.shadow-app
+                      img(src='@/assets/curso/temas/tema6/img_12.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                      h5.text-center.mb-4 El enfoque en productos estratégicos
+                      p.text-center.text-small Dentro de la vitrina permite dirigir el interés hacia artículos de alta rotación o con ofertas destacadas, favoreciendo su venta y aprovechando al máximo el espacio de exhibición. 
         
 </template>
 

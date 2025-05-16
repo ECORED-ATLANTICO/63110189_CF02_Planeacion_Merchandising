@@ -28,7 +28,7 @@
               img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
         
           .col-lg-9.mb-3
-            .bloque-texto-b
+            .bloque-texto-b.mb-3
               .bloque-texto-b__texto
                 i.fas.fa-quote-left
                 p.mb-0
@@ -78,31 +78,31 @@
                 | SENA, 2025
                 
             
-            .tarjeta.bg_01_tarjeta.p-2(x="8%" y="72%" numero="+")
+            .tarjeta.bg_01_tarjeta.p-2(x="8%" y="69%" numero="+")
               .row
                 h5 01
                 p Incrementar las ventas por impulso.
-            .tarjeta.bg_01_tarjeta.p-2(x="25.5%" y="72%" numero="+")
+            .tarjeta.bg_01_tarjeta.p-2(x="25.5%" y="69%" numero="+")
               .row
                 h5 02
                 p Aumentar el tiempo al interior del punto de venta.
 
-            .tarjeta.bg_01_tarjeta.p-2(x="41.5%" y="72%" numero="+")
+            .tarjeta.bg_01_tarjeta.p-2(x="41.5%" y="69%" numero="+")
               .row
                 h5 03
                 p Mejorar la presentación del producto.
 
-            .tarjeta.bg_01_tarjeta.p-2(x="58.5%" y="72%" numero="+")
+            .tarjeta.bg_01_tarjeta.p-2(x="58.5%" y="69%" numero="+")
               .row
                 h5 04
                 p Facilitar la rotación del inventario.
 
-            .tarjeta.bg_01_tarjeta.p-2(x="75.5%" y="72%" numero="+")
+            .tarjeta.bg_01_tarjeta.p-2(x="75.5%" y="69%" numero="+")
               .row
                 h5 05
                 p Reforzar la imagen de marca.
 
-            .tarjeta.bg_01_tarjeta.p-2(x="92.5%" y="72%" numero="+")
+            .tarjeta.bg_01_tarjeta.p-2(x="92.5%" y="69%" numero="+")
               .row
                 h5 06
                 p Orientar al cliente en su trayectoria en proceso de compra
@@ -128,14 +128,12 @@
                     .col-md-12.col-lg-7.mb-4.mb-md-0
                       p 
                         strong Visual
-                      p
-                      | Características 
+                      p Características 
                       ul.lista-ul.mb-3
                         li 
                           i.fas.fa-check-circle.bg-color-9
                           | Se enfoca en la presentación estética y atractiva del producto y el entorno.
-                      p
-                      | Aplicación en punto de venta 
+                      p Aplicación en punto de venta 
                       ul.lista-ul.mb-3
                         li 
                           i.fas.fa-check-circle.bg-color-9
@@ -150,14 +148,12 @@
                     .col-md-12.col-lg-7.mb-4.mb-md-0
                       p 
                         strong Seductor
-                      p
-                      | Características 
+                      p Características 
                       ul.lista-ul.mb-3
                         li 
                           i.fas.fa-check-circle.bg-color-9
                           | Utiliza estímulos sensoriales y emocionales para generar deseo de compra.
-                      p
-                      | Aplicación en punto de venta 
+                      p Aplicación en punto de venta 
                       ul.lista-ul.mb-3
                         li 
                           i.fas.fa-check-circle.bg-color-9
@@ -172,14 +168,12 @@
                     .col-md-12.col-lg-7.mb-4.mb-md-0
                       p 
                         strong Estratégico
-                      p
-                      | Características 
+                      p Características 
                       ul.lista-ul.mb-3
                         li 
                           i.fas.fa-check-circle.bg-color-9
                           | Se basa en datos y análisis para tomar decisiones de ubicación y promoción de productos.
-                      p
-                      | Aplicación en punto de venta 
+                      p Aplicación en punto de venta 
                       ul.lista-ul.mb-3
                         li 
                           i.fas.fa-check-circle.bg-color-9
@@ -194,14 +188,12 @@
                     .col-md-12.col-lg-7.mb-4.mb-md-0
                       p 
                         strong Digital
-                      p
-                      | Características 
+                      p Características 
                       ul.lista-ul.mb-3
                         li 
                           i.fas.fa-check-circle.bg-color-9
                           | Emplea el uso de tecnología para mejorar la experiencia del comprador.
-                      p
-                      | Aplicación en punto de venta 
+                      p Aplicación en punto de venta 
                       ul.lista-ul.mb-3
                         li 
                           i.fas.fa-check-circle.bg-color-9
@@ -216,14 +208,12 @@
                     .col-md-12.col-lg-7.mb-4.mb-md-0
                       p 
                         strong Promocional
-                      p
-                      | Características 
+                      p Características 
                       ul.lista-ul.mb-3
                         li 
                           i.fas.fa-check-circle.bg-color-9
                           | Apoya campañas o lanzamientos específicos mediante ofertas o material POP.
-                      p
-                      | Aplicación en punto de venta 
+                      p Aplicación en punto de venta 
                       ul.lista-ul.mb-3
                         li 
                           i.fas.fa-check-circle.bg-color-9
@@ -266,7 +256,7 @@
                         ul.lista-ul.mb-3
                           li 
                             i.fas.fa-check-circle.bg-color-9
-                            | Ejemplo
+                            | <b>Ejemplo</b>
                         p
                         | Ubicar los productos de rotación alta en zonas calientes.
 
@@ -279,7 +269,7 @@
                         ul.lista-ul.mb-3
                           li 
                             i.fas.fa-check-circle.bg-color-9
-                            | Ejemplo
+                            | <b>Ejemplo</b>
                         p
                         | Productos más rentables al nivel de los ojos.
 
@@ -293,7 +283,7 @@
                         ul.lista-ul.mb-3
                           li 
                             i.fas.fa-check-circle.bg-color-9
-                            | Ejemplo
+                            | <b>Ejemplo</b>
                         p
                         | Salsas junto a verduras.
 
@@ -307,7 +297,7 @@
                         ul.lista-ul.mb-3
                           li 
                             i.fas.fa-check-circle.bg-color-9
-                            | Ejemplo
+                            | <b>Ejemplo</b>
                         p
                         | Carteles con precios y flechas direccionales.
 
@@ -321,7 +311,7 @@
                         ul.lista-ul.mb-3
                           li 
                             i.fas.fa-check-circle.bg-color-9
-                            | Ejemplo
+                            | <b>Ejemplo</b>
                         p
                         | Decoraciones navideñas o promociones del Día de la Madre.
 

@@ -239,13 +239,6 @@ export default {
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=DM2N3XrZl0Q',
     },
-    {
-      tema: 'Estrategias del <em>merchandising</em>',
-      referencia:
-        'Liliana BG. (2021, 5 de octubre). ¿Para qué sirve la planimetría en el <em>merchandising</em>? [Video]. YouTube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=8pNtNOzgu3c&ab_channel=LilianaBG',
-    },
   ],
 
   glosario: [

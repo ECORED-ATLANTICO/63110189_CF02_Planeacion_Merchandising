@@ -130,7 +130,7 @@
                     span.text-dark
                       i Uso de tecnología en la creación de planograma
               figure(data-aos="zoom-in").mb-4
-                img(src='@/assets/curso/temas/tema6/img_04.png', alt='').img400.w-auto.mx-auto
+                img(src='@/assets/curso/temas/tema6/img_04.png', alt='La figura ilustra el uso de la tecnología para la creación de planograma.').img400.w-auto.mx-auto
 
           p El uso de herramientas tecnológicas en la creación de planogramas permite una planificación precisa y eficiente del espacio comercial. A través de <em>software</em> especializado, los equipos pueden visualizar, ajustar y validar la ubicación de productos, mejorando tanto la presentación como el impacto en el comportamiento del consumidor.
               
@@ -169,7 +169,7 @@
 
             figure.mb-4
               figure.mb-3
-                img(src='@/assets/curso/temas/tema6/img_05.svg', alt='Se ilustran los beneficios de implementar planogramas correctamente Colocación de productos mejorada 5–15% Aumento de ventasMejor utilización del espacio 5–10% Aumento de ventasMejora de la experiencia del cliente 62% Los consumidores prefieren una experiencia de compra personalizada. Operaciones racionalizadas 20% Mejora de la productividad laboral. Toma de decisiones basada en datos 60% Aumento de los márgenes')
+                img(src='@/assets/curso/temas/tema6/img_05.svg', alt='Se ilustran los beneficios de implementar planogramas correctamente: Colocación de productos mejorada 5–15 % Aumento de ventas. Mejor utilización del espacio 5–10 % Aumento de ventas. Mejora de la experiencia del cliente 62 % Los consumidores prefieren una experiencia de compra personalizada. Operaciones racionalizadas 20 % Mejora de la productividad laboral. Toma de decisiones basada en datos 60 % Aumento de los márgenes.')
 
               figcaption 
                 b Fuente: 

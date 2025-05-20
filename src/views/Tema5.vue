@@ -128,7 +128,7 @@
           div.tarjeta-horz.mb-5
             img(src='@/assets/curso/temas/tema5/img_08.png', alt='Imagen decorativa')
             div.texto-tarjeta
-              p.mb-0.text-small En el estudio del comportamiento del consumidor, identificar las distintas formas en que las personas abordan sus decisiones de compra, permite a las empresas diseñar estrategias más efectivas de marketing y ventas. A continuación, se presenta la clasificación de los principales tipos de comportamiento de compra observados en los consumidores, describiendo las características clave que los distinguen y permiten entender mejor sus motivaciones al momento de adquirir un producto o servicio.
+              p.mb-0.text-small En el estudio del comportamiento del consumidor, identificar las distintas formas en que las personas abordan sus decisiones de compra, permite a las empresas diseñar estrategias más efectivas de <em>marketing</em> y ventas. A continuación, se presenta la clasificación de los principales tipos de comportamiento de compra observados en los consumidores, describiendo las características clave que los distinguen y permiten entender mejor sus motivaciones al momento de adquirir un producto o servicio.
 
           .row.justify-content-center
             .col-xl-3.col-lg-7.col-md-6.col-11.mb-4.mb-xl-0

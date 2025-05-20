@@ -203,7 +203,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/260101050_CFA2_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -226,23 +226,23 @@ export default {
       link: 'https://www.youtube.com/watch?v=J5JP7YxPqAw',
     },
     {
-      tema: 'Merchandising',
+      tema: '<em>Merchandising</em>',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2021). Introducción al merchandising [Video]. YouTube.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2021). Introducción al <em>merchandising</em> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=D9O4iU9xSaA',
     },
     {
-      tema: 'Objetivos de merchandising',
+      tema: 'Objetivos de <em>merchandising</em>',
       referencia:
-        'Caroling Flórez. (2017). Manual de visual merchandising. [Video]. YouTube.',
+        'Caroling Flórez. (2017). Manual de <em>visual merchandising</em>. [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=DM2N3XrZl0Q',
     },
     {
-      tema: 'Estrategias del merchandising',
+      tema: 'Estrategias del <em>merchandising</em>',
       referencia:
-        'Liliana BG. (2021, 5 de octubre). ¿Para qué sirve la planimetría en el merchandising? [Video]. YouTube.',
+        'Liliana BG. (2021, 5 de octubre). ¿Para qué sirve la planimetría en el <em>merchandising</em>? [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=8pNtNOzgu3c&ab_channel=LilianaBG',
     },
@@ -250,7 +250,7 @@ export default {
 
   glosario: [
     {
-      termino: 'Benchmarking',
+      termino: '<em>Benchmarking</em>',
       significado:
         'Proceso de comparación de prácticas y resultados con los de empresas líderes para mejorar el desempeño propio.',
     },
@@ -275,22 +275,22 @@ export default {
         'Percepción total que tiene un consumidor sobre una marca durante toda su relación con ella.',
     },
     {
-      termino: 'Layout',
+      termino: '<em>Layout</em>',
       significado:
         'Distribución física del mobiliario y productos dentro del punto de venta.',
     },
     {
-      termino: 'Marketing',
+      termino: '<em>Marketing</em>',
       significado:
         'Conjunto de técnicas y estudios para mejorar la comercialización de productos o servicios.',
     },
     {
-      termino: 'Marketing sensorial',
+      termino: '<em>Marketing</em> sensorial',
       significado:
         'Estrategia que utiliza los sentidos para generar emociones y asociaciones positivas en los clientes.',
     },
     {
-      termino: 'Merchandising',
+      termino: '<em>Merchandising</em>',
       significado:
         'Técnicas utilizadas en el punto de venta para influir en la decisión de compra del consumidor.',
     },
@@ -300,9 +300,9 @@ export default {
         'Resultados específicos que se esperan alcanzar como parte de un objetivo general.',
     },
     {
-      termino: 'Neuromarketing',
+      termino: '<em>Neuromarketing</em>',
       significado:
-        'Aplicación de conocimientos de neurociencia al marketing para entender mejor el comportamiento del consumidor.',
+        'Aplicación de conocimientos de neurociencia al <em>marketing</em> para entender mejor el comportamiento del consumidor.',
     },
     {
       termino: 'Objetivo',
@@ -322,15 +322,15 @@ export default {
     {
       termino: 'Segmentación',
       significado:
-        'Proceso de dividir el mercado en grupos homogéneos para personalizar estrategias de marketing.',
+        'Proceso de dividir el mercado en grupos homogéneos para personalizar estrategias de <em>marketing.</em>',
     },
     {
-      termino: 'SKU',
+      termino: '<em>SKU</em>',
       significado:
         'Código único que identifica cada referencia o presentación de un producto en inventario.',
     },
     {
-      termino: 'Visual merchandising',
+      termino: '<em>Visual merchandising</em>',
       significado:
         'Estrategia visual para presentar productos en el punto de venta de forma atractiva y funcional.',
     },
@@ -343,32 +343,32 @@ export default {
     },
     {
       referencia:
-        'Gómez, A. (2020). Merchandising: estrategias para el punto de venta. Editorial Marketing y Ventas.',
+        'Gómez, A. (2020). <em>Merchandising</em>: estrategias para el punto de venta. Editorial <em>Marketing</em> y Ventas.',
       link: '',
     },
     {
       referencia:
-        'González, J. L. (2019). Merchandising y promoción en el punto de venta. ESIC Editorial.',
+        'González, J. L. (2019). <em>Merchandising</em> y promoción en el punto de venta. ESIC Editorial.',
       link: '',
     },
     {
       referencia:
-        'Kotler, P. & Keller, K. (2016). Dirección de marketing. Pearson Educación.',
+        'Kotler, P. & Armstrong, G. (2017). Fundamentos de <em>marketing</em>. Pearson.',
       link: '',
     },
     {
       referencia:
-        'Kotler, P. & Armstrong, G. (2017). Fundamentos de marketing. Pearson.',
+        'Kotler, P. & Keller, K. (2016). Dirección de <em>marketing</em>. Pearson Educación.',
       link: '',
     },
     {
       referencia:
-        'Lamb, C., Hair, J. & McDaniel, C. (2011). Marketing. Cengage Learning.',
+        'Lamb, C., Hair, J. & McDaniel, C. (2011). <em>Marketing. Cengage Learning.</em>',
       link: '',
     },
     {
       referencia:
-        'Peñaloza, L. (2019). Marketing experiencial: más allá del producto y del servicio. Editorial Ecoe.',
+        'Peñaloza, L. (2019). <em>Marketing</em> experiencial: más allá del producto y del servicio. Editorial Ecoe.',
       link: '',
     },
     {
@@ -388,7 +388,7 @@ export default {
     },
     {
       referencia:
-        'Solé, C. (2017). Merchandising: cómo aumentar la rentabilidad en el punto de venta. Profit Editorial.',
+        'Solé, C. (2017). <em>Merchandising:</em> cómo aumentar la rentabilidad en el punto de venta. Profit Editorial.',
       link: '',
     },
     {

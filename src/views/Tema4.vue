@@ -26,7 +26,7 @@
       separador
       .p-4.p-md-5.mb-0
         div.mb-0(data-aos="fade-right")
-          h3.position-relative#t_4_1 4.1	Concepto
+          h3.position-relative#t_4_1 4.1 Características de las metas
             img.w-auto.pt-2.mb-4(src='@/assets/curso/temas/border_title.svg', alt='')
 
           .row.justify-content-center.align-items-center
@@ -51,7 +51,7 @@
 
               figure.mb-4
                 figure.mb-3
-                  img(src='@/assets/curso/temas/tema4/img_04.svg', alt='Imagen Decorativa')
+                  img(src='@/assets/curso/temas/tema4/img_04.svg', alt='Se ilustran las metas SMART Específicas (Specific) Medibles (Measurable) Alcanzables (Achievable) Relevantes (Relevant) Temporales (Time-bound)')
 
                 figcaption 
                   b Fuente: 
@@ -78,7 +78,7 @@
                     .bg-color-white.p-4.h-100.shadow-app
                       img(src='@/assets/curso/temas/tema4/img_06.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                       h5.text-center.mb-4 Comerciales
-                      p.text-center.text-small Relacionadas con el volumen de ventas, ingresos, rentabilidad o crecimiento del ticket promedio.
+                      p.text-center.text-small Relacionadas con el volumen de ventas, ingresos, rentabilidad o crecimiento del <em>ticket</em> promedio.
                     .bg-color-white.p-4.h-100.shadow-app
                       img(src='@/assets/curso/temas/tema4/img_07.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                       h5.text-center.mb-4 Operativas
@@ -86,7 +86,7 @@
 
                     .bg-color-white.p-4.h-100.shadow-app
                       img(src='@/assets/curso/temas/tema4/img_08.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                      h5.text-center.mb-4 De marketing
+                      h5.text-center.mb-4 De <em>marketing</em>
 
                       p.text-center.text-small Dirigidas a posicionamiento de marca, recordación publicitaria, incremento de tráfico en tienda.
 
@@ -120,7 +120,7 @@
 
               figure.mb-4
                 figure.mb-3
-                  img(src='@/assets/curso/temas/tema4/img_10.svg', alt='Imagen Decorativa')
+                  img(src='@/assets/curso/temas/tema4/img_10.svg', alt='Las metas claras son importantes porque: Orientan el trabajo del equipo hacia objetivos definidos.Facilitan el uso eficiente de recursos.Permiten diseñar planes de acción alineados con los resultados esperados.Ayudan en la toma de decisiones con base en indicadores clave (KPI).Sirven para evaluar el desempeño del equipo.Motivan y fortalecen el sentido de propósito común.')
 
                 figcaption 
                   b Fuente: 

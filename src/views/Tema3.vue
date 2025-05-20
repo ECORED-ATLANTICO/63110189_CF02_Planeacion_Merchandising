@@ -18,7 +18,7 @@
                 :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img_01.png')})`}"
               )
               .bloque-texto-g__texto.p-4
-                p El merchandising es una herramienta estratégica que busca aumentar la rentabilidad del punto de venta mediante la adecuada presentación del producto y el diseño de experiencias atractivas para el consumidor. Su enfoque no solo es visual, sino también sensorial, psicológico y comercial, por lo que sus objetivos deben ser definidos con precisión para generar impacto en los resultados del negocio (Chebat & Morrin, 2007).
+                p El <em>merchandising</em> es una herramienta estratégica que busca aumentar la rentabilidad del punto de venta mediante la adecuada presentación del producto y el diseño de experiencias atractivas para el consumidor. Su enfoque no solo es visual, sino también sensorial, psicológico y comercial, por lo que sus objetivos deben ser definidos con precisión para generar impacto en los resultados del negocio (Chebat & Morrin, 2007).
 
 
           separador
@@ -37,6 +37,8 @@
                   <br> (Kotler & Keller, 2016).
                 i.fas.fa-quote-right
 
+          
+
           .row.align-items-start
             .col-lg-5.mb-3
               p No se limita a colocar productos en estanterías; implica diseñar una experiencia visual y sensorial que motive al cliente, influya en su decisión de compra y refuerce la identidad de marca.
@@ -44,6 +46,7 @@
               figure
                 img(src="@/assets/curso/temas/tema3/img_02.png", alt="").mb-4
             .col-lg-7.mb-3
+              h4.mb-4 Objetivo del <em>merchandising</em>
               LineaTiempoD.color-acento-botones
                 p(numero="1" titulo="Incrementar las ventas por impulso") Se busca estimular compras no planeadas mediante una disposición estratégica de productos atractivos en zonas de alto tránsito, como cajas o pasillos principales.
                 
@@ -71,7 +74,7 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure.mb-3
-                img(src='@/assets/curso/temas/tema3/img_03.svg', alt='Imagen Decorativa')
+                img(src='@/assets/curso/temas/tema3/img_03.svg', alt='Se enuncian los objetivos del merchandising a saber: Incrementar las ventas por impulso.Aumentar el tiempo al interior del punto de venta.Mejorar la presentación del producto.Facilitar la rotación del inventario.Reforzar la imagen de marca.Orientar al cliente en su trayectoria en proceso de compra')
 
               figcaption 
                 b Fuente: 
@@ -157,7 +160,7 @@
                       ul.lista-ul.mb-3
                         li 
                           i.fas.fa-check-circle.bg-color-9
-                          | Aromas, música, degustaciones, marketing sensorial
+                          | Aromas, música, degustaciones, <em>marketing</em> sensorial
 
 
                   .row.justify-content-center.align-items-center.my-lg-4
@@ -278,7 +281,7 @@
                       
                       .col-md-12.col-lg-10.mb-4.mb-md-0
                         p 
-                          strong Cross <em>merchandising</em>
+                          strong <em>Cross merchandising</em>
                         p Agrupación de productos complementarios para estimular compras adicionales.
                         ul.lista-ul.mb-3
                           li 

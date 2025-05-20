@@ -65,7 +65,7 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure.mb-3
-                img(src='@/assets/curso/temas/tema1/img_04.svg', alt='Imagen Decorativa')
+                img(src='@/assets/curso/temas/tema1/img_04.svg', alt='La figura enuncia la importancia de la toma de decisiones en el punto de venta, pues desarrolla habilidad esencial en mercadeo, construye experiencias intencionadas, cada decisión cuenta, produce un impacto en el comportamiento del cliente, crea ambientes estratégicos y favorece el logro de objetivos.')
 
               figcaption 
                 b Fuente: 
@@ -177,6 +177,34 @@
       .col-lg-8.mb-4.arriba
         p Estas etapas coinciden con los modelos propuestos por autores como Robbins y Coulter (2021), quienes destacan que una decisión bien estructurada implica identificar problemas con claridad, evaluar la información disponible y actuar con base en criterios objetivos. Además, es fundamental que todo proceso de toma de decisiones esté guiado por principios éticos, ya que cada acción tomada en el punto de venta puede afectar no solo los resultados del negocio, sino también la experiencia y el respeto hacia los clientes, colaboradores y la comunidad en general.
 
+
+    .row.tabla-a.color-acento-botones
+      .col-10.mx-auto
+        .titulo-sexto.mb-4
+          h5 Tabla 1. 
+          span.text-dark
+            i Etapas del proceso de decisión
+        table
+          caption Fuente: Kotler, P., &amp; Keller, K. L. (2016)
+          thead
+            tr
+              th.tabla-bg-01.text-white Tipo de decisión
+              th.tabla-bg-01.text-white Ejemplo en punto de venta
+              th.tabla-bg-01.text-white Frecuencia
+          tbody
+            tr.bg-white
+              td Operativas
+              td Reposición de productos en estantería, atención al cliente.
+              td Diarias o semanales
+            tr.tabla-bg-02
+              td Tácticas
+              td Cambios de <em>layout</em>, ajustes de precios, promociones.
+              td Mensuales
+            tr.bg-white
+              td Estratégicas
+              td Remodelación del punto de venta, implementación de CRM.
+              td Anuales o por ciclo de negocio
+
     .bg-full-width.bg-fondo-3
       .p-4.p-md-5
         .row.justify-content-center.my-3(data-aos="zoom-in")
@@ -191,7 +219,7 @@
               ImagenInfografica.color-acento-botones
                 template(v-slot:imagen)
                   figure.mb-3
-                    img(src='@/assets/curso/temas/tema1/img_14.svg', alt='Imagen Decorativa')
+                    img(src='@/assets/curso/temas/tema1/img_14.svg', alt='La figura describe las herramientas disponibles como apoyo en la toma de decisiones como lo son el análisis DOFA, estudios de comportamiento del consumidor, mapas de calor, e indicadores de gestión (KPI).')
 
                   figcaption 
                     b Fuente: 
@@ -276,7 +304,7 @@
                     .col-lg-4
                       img.w-75(src='@/assets/curso/temas/tema1/img_18.svg', alt='Imagen decorativa')
                     .col-lg-8
-                      h5 Ticket promedio
+                      h5 <em>Ticket</em> promedio
                       p Gastos por cliente
                 .tarjeta.bg_01_tarjeta.p-2(x="98.2%" y="79%" numero="+")
                   .row

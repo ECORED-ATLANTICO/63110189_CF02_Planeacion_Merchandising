@@ -29,7 +29,7 @@
       
         .row.justify-content-center.my-3
           .col-lg-8
-            p Se brindan herramientas conceptuales y prácticas que permiten implementar estrategias efectivas capaces de captar la atención, influir en las decisiones de compra y fomentar la fidelización. Además, se fomenta una perspectiva crítica e innovadora mediante la integración de principios como el neuromarketing, el marketing sensorial, el análisis estratégico y las tecnologías emergentes. 
+            p Se brindan herramientas conceptuales y prácticas que permiten implementar estrategias efectivas capaces de captar la atención, influir en las decisiones de compra y fomentar la fidelización. Además, se fomenta una perspectiva crítica e innovadora mediante la integración de principios como el <em>neuromarketing</em>, el <em>marketing</em> sensorial, el análisis estratégico y las tecnologías emergentes. 
             .bloque-texto-b
               .bloque-texto-b__texto
                 i.fas.fa-quote-left
@@ -43,7 +43,7 @@
             figure
               img.my-3(src='@/assets/curso/temas/intro/img02.png', alt='Imagen decorativa')
         .video
-          iframe(width="560" height="315" src="ttps://www.youtube.com/embed/MGVBwD8a0RE?si=R4IHWYgmUlfQVQot" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/MGVBwD8a0RE?si=R4IHWYgmUlfQVQot" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Nota: Sena (2024).   
     
 </template>

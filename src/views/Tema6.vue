@@ -33,11 +33,11 @@
           img(src="@/assets/curso/temas/tema6/img_02.png", alt="").w-auto.mx-auto
       .col-lg-7.mb-3
         LineaTiempoD.color-acento-botones
-          p(numero="1" titulo="Diseño del layout") La disposición del mobiliario, estanterías y productos debe guiar de manera fluida el recorrido del cliente, facilitando la exposición y el acceso a los artículos.
+          p(numero="1" titulo="Diseño del <em>layout</em>") La disposición del mobiliario, estanterías y productos debe guiar de manera fluida el recorrido del cliente, facilitando la exposición y el acceso a los artículos.
           
           p(numero="2" titulo="Zonas calientes y frías") Las zonas calientes son áreas con mayor tráfico y visibilidad, ideales para ubicar productos de alta rotación o promociones. Las zonas frías requieren estrategias para activar su atractivo, como señalización o iluminación específica.
 
-          p(numero="3" titulo="Marketing sensorial") Se emplean estímulos como música ambiental, aromas agradables, colores estratégicos y texturas para crear una atmósfera que estimule positivamente la percepción del cliente (Solomon, 2018).
+          p(numero="3" titulo="<em>Marketing</em> sensorial") Se emplean estímulos como música ambiental, aromas agradables, colores estratégicos y texturas para crear una atmósfera que estimule positivamente la percepción del cliente (Solomon, 2018).
           
           p(numero="4" titulo="Puntos focales") Son espacios diseñados para captar la atención visual, como exhibiciones temáticas, ofertas destacadas o displays digitales.
 
@@ -64,7 +64,7 @@
             
             .col-lg-6.mb-0
               .titulo-sexto.mb-4
-                h5 Figura 7. 
+                h5 Figura 6. 
                 span.text-dark
                   i Ubicación de artículos en estantería
 
@@ -79,7 +79,7 @@
       .row.justify-content-center
         .col-lg-10.mb-4
           .titulo-sexto.mb-4
-            h5 Tabla 1. 
+            h5 Tabla 2. 
             span.text-dark
               i Proceso eficaz de creación de planogramas
         
@@ -105,12 +105,12 @@
                   td Se analiza el perfil del cliente y su comportamiento por categoría.
                   td Mejorar la ubicación del producto según preferencias del cliente.
                 tr.tabla-bg-02
-                  td 4. Diseño del planograma con software
-                  td Se usa software especializado y se valida con gestores de categoría.
+                  td 4. Diseño del planograma con <em>software</em>
+                  td Se usa <em>software</em> especializado y se valida con gestores de categoría.
                   td Alinear el diseño con metas comerciales.
                 tr.bg-white
                   td 5. Formación del personal en visual <em>merchandising</em>
-                  td Se capacita al equipo sobre el uso del software y normas de exhibición.
+                  td Se capacita al equipo sobre el uso del <em>software</em> y normas de exhibición.
                   td Asegurar ejecución coherente en tiendas.
                 tr.tabla-bg-02
                   td 6. Revisión del rendimiento del planograma
@@ -123,54 +123,57 @@
 
       .bg-full-width.bg-fondo-8.mb-0
         .p-4.px-md-5.mb-0
-
-          .row.justify-content-center.align-items-center.mb-0
-            .col-md-6.col-lg-4.mb-3.p-4
-              figure(data-aos="zoom-in")
-                img(src='@/assets/curso/temas/tema6/img_04.png', alt='').img400.w-auto.mx-auto
-            .col-lg-8.mb-3
-              p El uso de herramientas tecnológicas en la creación de planogramas permite una planificación precisa y eficiente del espacio comercial. A través de software especializado, los equipos pueden visualizar, ajustar y validar la ubicación de productos, mejorando tanto la presentación como el impacto en el comportamiento del consumidor.
-                  
-              .cajon.bg-03.p-4
-                p.mb-0 Los planogramas, cuando se aplican de forma estratégica, se convierten en una herramienta clave para mejorar el desempeño del punto de venta, aportando beneficios concretos que impactan tanto en la gestión interna como en la satisfacción del cliente.
-
-            .col-lg-10.mb-4
-              .tabla-a.color-acento-botones.mb-3
-                table
-                  thead
-                    tr
-                      th.tabla-bg-01.text-white Beneficio
-                      th.tabla-bg-01.text-white Impacto esperado
-                  tbody
-                    tr.bg-white
-                      td Mejor colocación del producto
-                      td Incremento de ventas del 5 % al 15 %.
-                    tr.tabla-bg-02
-                      td Optimización del espacio
-                      td Aumento de ventas del 5 % al 10 %.
-                    tr.bg-white
-                      td Experiencia personalizada del cliente
-                      td 62 % de consumidores prefieren tiendas con esta característica.
-                    tr.tabla-bg-02
-                      td Operaciones racionalizadas
-                      td Mejora de productividad hasta un 20 %.
-                    tr.bg-white
-                      td Decisiones basadas en datos
-                      td Margen de mejora hasta del 60 %.
-
-            .col-lg-10.mb-0
+          .row
+            .col-12.col-md-6.mx-auto
               .titulo-sexto.mb-4
-                h5 Figura 8. 
-                span.text-dark
-                  i Beneficios de implementar planogramas correctamente
+                  h5 Figura 7. 
+                    span.text-dark
+                      i Uso de tecnología en la creación de planograma
+              figure(data-aos="zoom-in").mb-4
+                img(src='@/assets/curso/temas/tema6/img_04.png', alt='').img400.w-auto.mx-auto
 
-              figure.mb-4
-                figure.mb-3
-                  img(src='@/assets/curso/temas/tema6/img_05.svg', alt='Imagen Decorativa')
+          p El uso de herramientas tecnológicas en la creación de planogramas permite una planificación precisa y eficiente del espacio comercial. A través de <em>software</em> especializado, los equipos pueden visualizar, ajustar y validar la ubicación de productos, mejorando tanto la presentación como el impacto en el comportamiento del consumidor.
+              
+          .cajon.bg-03.p-4.mb-4
+            p.mb-0 Los planogramas, cuando se aplican de forma estratégica, se convierten en una herramienta clave para mejorar el desempeño del punto de venta, aportando beneficios concretos que impactan tanto en la gestión interna como en la satisfacción del cliente.
 
-                figcaption 
-                  b Fuente: 
-                  | Niazi, 2023
+          .col-lg-10.mb-4.mx-auto
+            .tabla-a.color-acento-botones.mb-5
+              table
+                thead
+                  tr
+                    th.tabla-bg-01.text-white Beneficio
+                    th.tabla-bg-01.text-white Impacto esperado
+                tbody
+                  tr.bg-white
+                    td Mejor colocación del producto
+                    td Incremento de ventas del 5 % al 15 %.
+                  tr.tabla-bg-02
+                    td Optimización del espacio
+                    td Aumento de ventas del 5 % al 10 %.
+                  tr.bg-white
+                    td Experiencia personalizada del cliente
+                    td 62 % de consumidores prefieren tiendas con esta característica.
+                  tr.tabla-bg-02
+                    td Operaciones racionalizadas
+                    td Mejora de productividad hasta un 20 %.
+                  tr.bg-white
+                    td Decisiones basadas en datos
+                    td Margen de mejora hasta del 60 %.
+
+          .col-lg-10.mb-0.mx-auto
+            .titulo-sexto.mb-4
+              h5 Figura 8. 
+              span.text-dark
+                i Beneficios de implementar planogramas correctamente
+
+            figure.mb-4
+              figure.mb-3
+                img(src='@/assets/curso/temas/tema6/img_05.svg', alt='Se ilustran los beneficios de implementar planogramas correctamente Colocación de productos mejorada 5–15% Aumento de ventasMejor utilización del espacio 5–10% Aumento de ventasMejora de la experiencia del cliente 62% Los consumidores prefieren una experiencia de compra personalizada. Operaciones racionalizadas 20% Mejora de la productividad laboral. Toma de decisiones basada en datos 60% Aumento de los márgenes')
+
+              figcaption 
+                b Fuente: 
+                | Niazi, 2023
 
     separador
     
@@ -185,7 +188,7 @@
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema6/img_06.png', alt='').img400.w-auto.mx-auto
             .col-lg-8.mb-4
-              p En el ámbito del marketing y el <em>merchandising</em>, el color es una herramienta estratégica clave que influye directamente en las emociones, decisiones de compra y comportamiento del consumidor. Cada color transmite sensaciones y valores distintos, lo cual permite a las marcas y establecimientos generar atmósferas específicas, reforzar su identidad visual y destacar productos o promociones. 
+              p En el ámbito del <em>marketing</em> y el <em>merchandising</em>, el color es una herramienta estratégica clave que influye directamente en las emociones, decisiones de compra y comportamiento del consumidor. Cada color transmite sensaciones y valores distintos, lo cual permite a las marcas y establecimientos generar atmósferas específicas, reforzar su identidad visual y destacar productos o promociones. 
                   
               .cajon.bg-03.p-4
                 p.mb-0 El uso adecuado del color en los espacios comerciales no solo atrae la atención del cliente, sino que también puede mejorar la experiencia de compra, incrementar el tiempo de permanencia en el punto de venta y favorecer la fidelización. Según Kotler y Armstrong (2018), el color, al igual que otros estímulos visuales, tiene un impacto significativo en la percepción del consumidor y en sus decisiones dentro del entorno de compra. A continuación, se presenta una tabla con los principales colores utilizados en <em>merchandising</em>, su impacto psicológico, beneficios y aplicaciones más comunes.
@@ -193,7 +196,7 @@
           .row.justify-content-center
             .col-lg-12.mb-0
               .titulo-sexto.mb-4
-                h5 Tabla 2. 
+                h5 Tabla 3. 
                 span.text-dark
                   i Uso del color en el <em>merchandising</em>
             
@@ -261,7 +264,7 @@
           h3.position-relative#t_6_5 6.5 Escaparatismo
             img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
 
-          p.mb-4 El escaparatismo es una herramienta clave en el marketing visual que busca captar la atención del cliente desde el exterior del punto de venta. Uno de sus elementos principales es el diseño visual, que combina aspectos como colores, formas, estilos e iluminación para reflejar la identidad del negocio y atraer al público desde la primera mirada (González, 2019). Se debe tener en cuenta:
+          p.mb-4 El escaparatismo es una herramienta clave en el <em>marketing</em> visual que busca captar la atención del cliente desde el exterior del punto de venta. Uno de sus elementos principales es el diseño visual, que combina aspectos como colores, formas, estilos e iluminación para reflejar la identidad del negocio y atraer al público desde la primera mirada (González, 2019). Se debe tener en cuenta:
 
           .bg-full-width.bg-color-7.mb-0
             .px-4.px-md-5.mb-0

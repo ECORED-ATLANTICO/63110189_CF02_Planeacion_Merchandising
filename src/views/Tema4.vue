@@ -24,8 +24,9 @@
                 i.fas.fa-quote-right
 
       separador
+      
       .p-4.p-md-5.mb-0
-        div.mb-0(data-aos="fade-right").titulo-segundo.color-secundario
+        div(data-aos="fade-right").titulo-segundo.color-secundario
           h3.position-relative#t_4_1 4.1 Características de las metas
       .px-4.px-md-5.mb-0
         .row.justify-content-center.align-items-center
@@ -46,8 +47,7 @@
           .col-lg-10.mb-4
             .titulo-sexto.mb-4
               h5 Figura 4. 
-              span.text-dark
-                i Metas <em>SMART</em>
+              span.text-dark Metas <em>SMART</em>
 
             figure.mb-4
               figure.mb-3
@@ -78,22 +78,22 @@
                   .bg-color-white.p-4.h-100.shadow-app
                     img(src='@/assets/curso/temas/tema4/img_06.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                     h5.text-center.mb-4 Comerciales
-                    p.text-center.text-small Relacionadas con el volumen de ventas, ingresos, rentabilidad o crecimiento del <em>ticket</em> promedio.
+                    p.text-center Relacionadas con el volumen de ventas, ingresos, rentabilidad o crecimiento del <em>ticket</em> promedio.
                   .bg-color-white.p-4.h-100.shadow-app
                     img(src='@/assets/curso/temas/tema4/img_07.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                     h5.text-center.mb-4 Operativas
-                    p.text-center.text-small Afines a procesos internos, como optimizar espacios, el reponer de manera eficiente del inventario o su control.
+                    p.text-center Afines a procesos internos, como optimizar espacios, el reponer de manera eficiente del inventario o su control.
 
                   .bg-color-white.p-4.h-100.shadow-app
                     img(src='@/assets/curso/temas/tema4/img_08.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                     h5.text-center.mb-4 De <em>marketing</em>
 
-                    p.text-center.text-small Dirigidas a posicionamiento de marca, recordación publicitaria, incremento de tráfico en tienda.
+                    p.text-center Dirigidas a posicionamiento de marca, recordación publicitaria, incremento de tráfico en tienda.
 
                   .bg-color-white.p-4.h-100.shadow-app
                     img(src='@/assets/curso/temas/tema4/img_09.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                     h5.text-center.mb-4 De experiencia
-                    p.text-center.text-small Dirigidas a la satisfacción del cliente, tiempo de permanencia, tasa de conversión y proceso de fidelización.
+                    p.text-center Dirigidas a la satisfacción del cliente, tiempo de permanencia, tasa de conversión y proceso de fidelización.
         
         .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
           .col-lg-8.mb-4
@@ -115,8 +115,7 @@
           .col-lg-12.mb-4
             .titulo-sexto.mb-4
               h5 Figura 5. 
-              span.text-dark
-                i Importancia de metas claras
+              span.text-dark Importancia de metas claras
 
             figure.mb-4
               figure.mb-3
@@ -128,7 +127,7 @@
 
     separator
 
-    div.mb-0(data-aos="fade-right").titulo-segundo.color-secundario
+    div(data-aos="fade-right").titulo-segundo.color-secundario
       h3.position-relative#t_4_3 4.3 Ejemplos de metas
 
     .row.justify-content-center.align-items-center.ordenar_div

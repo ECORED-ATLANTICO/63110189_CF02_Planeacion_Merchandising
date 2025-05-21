@@ -57,11 +57,10 @@
       .col-lg-10.mb-4
         .titulo-sexto.mb-4
           h5 Figura 1. 
-          span.text-dark
-            i Importancia  de la toma de decisiones en el punto de venta
+          span.text-dark Importancia  de la toma de decisiones en el punto de venta
 
         figure
-          ImagenInfografica.color-acento-botones
+          ImagenInfografica.color-acento-botones.figura1
             template(v-slot:imagen)
               figure.mb-3
                 img(src='@/assets/curso/temas/tema1/img_04.svg', alt='La figura enuncia la importancia de la toma de decisiones en el punto de venta, pues desarrolla habilidad esencial en mercadeo, construye experiencias intencionadas, cada decisión cuenta, produce un impacto en el comportamiento del cliente, crea ambientes estratégicos y favorece el logro de objetivos.')
@@ -80,7 +79,7 @@
                 
             .tarjeta.color-acento-botones.p-3(x="77.5%" y="23%" numero="+")
               .h5.mb-2 03
-              p Cada decisión cuenta
+              p Cada decisión cuenta.
 
             .tarjeta.color-acento-botones.p-3(x="28.2%" y="86%" numero="+")
               .h5.mb-2 04
@@ -208,8 +207,7 @@
           .col-lg-12.mb-4
             .titulo-sexto.mb-4
               h5 Figura 2. 
-              span.text-dark
-                i Herramientas de apoyo en la toma de decisiones
+              span.text-dark Herramientas de apoyo en la toma de decisiones
 
             figure.mb-4
         

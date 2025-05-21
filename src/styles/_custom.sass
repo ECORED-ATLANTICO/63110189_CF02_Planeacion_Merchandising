@@ -245,11 +245,12 @@ figcaption
   background-color: #FFCE79
   border-bottom-right-radius: 10px
   padding: 10px 20px
+  margin-left: 20px
   display: inline-flex
   align-items: center
 .titulo-con-imagen__imagen
   position: absolute
-  left: -30px
+  left: 0px
   width: 50px
 .titulo-con-imagen__texto
   margin: 0
@@ -268,14 +269,23 @@ figcaption
   border-radius: 10px
 
 @media screen and (max-width:768px)
-  .img-infografica__item
-    top: 55%!important
-  .tarjeta-horz div.texto-tarjeta
-    margin: -1em 0 auto 0
+.tarjeta-horz div.texto-tarjeta
+  margin: -1em 0 auto 0
 
-@media (min-width:769px) and (max-width:1024px)
-  .img-infografica__item
-    top: 60%!important
+@media screen and (max-width: 768px)
+  .figura3
+    .img-infografica__item
+      top: 48% !important
+
+@media (min-width: 769px) and (max-width: 1024px)
+  .figura3
+    .img-infografica__item
+      top: 56% !important
+
+@media (min-width: 1025px)
+  .figura3
+    .img-infografica__item
+      top: 64% !important
 
 .linea-tiempo-d__item__content__title
   height: auto

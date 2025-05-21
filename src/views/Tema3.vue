@@ -7,8 +7,6 @@
         span 3
       h1 Objetivos de <em>merchandising</em>
 
-
-
     .bg-full-width.bg-fondo-5.mb-0
       .p-4.p-md-5.mb-0
         .row.justify-content-center.align-items-center
@@ -65,12 +63,11 @@
       .col-lg-12.mb-4
         .titulo-sexto.mb-4
           h5 Figura 3. 
-          span.text-dark
-            i Objetivos del <em>merchandising</em>
+          span.text-dark Objetivos del <em>merchandising</em>
 
         figure.mb-4
     
-          ImagenInfografica.color-acento-botones
+          ImagenInfografica.color-acento-botones.figura3
             template(v-slot:imagen)
               figure.mb-3
                 img(src='@/assets/curso/temas/tema3/img_03.svg', alt='Se enuncian los objetivos del merchandising a saber: Incrementar las ventas por impulso.Aumentar el tiempo al interior del punto de venta.Mejorar la presentación del producto.Facilitar la rotación del inventario.Reforzar la imagen de marca.Orientar al cliente en su trayectoria en proceso de compra')
@@ -107,7 +104,7 @@
             .tarjeta.bg_01_tarjeta.p-2(x="92.5%" y="69%" numero="+")
               .row
                 h5 06
-                p Orientar al cliente en su trayectoria en proceso de compra
+                p Orientar al cliente en su trayectoria en proceso de compra.
 
     separador
 
@@ -129,12 +126,12 @@
                   .col-md-12.col-lg-7.mb-4.mb-md-0
                     p 
                       strong Visual
-                    p Características 
+                    p Características:
                     ul.lista-ul.mb-3
                       li 
                         i.fas.fa-check-circle.bg-color-9
                         | Se enfoca en la presentación estética y atractiva del producto y el entorno.
-                    p Aplicación en punto de venta 
+                    p Aplicación en punto de venta :
                     ul.lista-ul.mb-3
                       li 
                         i.fas.fa-check-circle.bg-color-9
@@ -149,16 +146,16 @@
                   .col-md-12.col-lg-7.mb-4.mb-md-0
                     p 
                       strong Seductor
-                    p Características 
+                    p Características:
                     ul.lista-ul.mb-3
                       li 
                         i.fas.fa-check-circle.bg-color-9
                         | Utiliza estímulos sensoriales y emocionales para generar deseo de compra.
-                    p Aplicación en punto de venta 
+                    p Aplicación en punto de venta:
                     ul.lista-ul.mb-3
                       li 
                         i.fas.fa-check-circle.bg-color-9
-                        | Aromas, música, degustaciones, <em>marketing</em> sensorial
+                        | Aromas, música, degustaciones, <em>marketing</em> sensorial.
 
 
                 .row.justify-content-center.align-items-center.my-lg-4
@@ -169,12 +166,12 @@
                   .col-md-12.col-lg-7.mb-4.mb-md-0
                     p 
                       strong Estratégico
-                    p Características 
+                    p Características:
                     ul.lista-ul.mb-3
                       li 
                         i.fas.fa-check-circle.bg-color-9
                         | Se basa en datos y análisis para tomar decisiones de ubicación y promoción de productos.
-                    p Aplicación en punto de venta 
+                    p Aplicación en punto de venta:
                     ul.lista-ul.mb-3
                       li 
                         i.fas.fa-check-circle.bg-color-9
@@ -189,12 +186,12 @@
                   .col-md-12.col-lg-7.mb-4.mb-md-0
                     p 
                       strong Digital
-                    p Características 
+                    p Características:
                     ul.lista-ul.mb-3
                       li 
                         i.fas.fa-check-circle.bg-color-9
                         | Emplea el uso de tecnología para mejorar la experiencia del comprador.
-                    p Aplicación en punto de venta 
+                    p Aplicación en punto de venta: 
                     ul.lista-ul.mb-3
                       li 
                         i.fas.fa-check-circle.bg-color-9
@@ -209,12 +206,12 @@
                   .col-md-12.col-lg-7.mb-4.mb-md-0
                     p 
                       strong Promocional
-                    p Características 
+                    p Características:
                     ul.lista-ul.mb-3
                       li 
                         i.fas.fa-check-circle.bg-color-9
                         | Apoya campañas o lanzamientos específicos mediante ofertas o material POP.
-                    p Aplicación en punto de venta 
+                    p Aplicación en punto de venta:
                     ul.lista-ul.mb-3
                       li 
                         i.fas.fa-check-circle.bg-color-9
@@ -235,89 +232,89 @@
       div.texto-tarjeta
         p.mb-0 Las técnicas de fijación de <em>merchandising</em> son estrategias puntuales que buscan posicionar el producto en la mente del consumidor, fomentar la compra y generar una experiencia diferenciadora. Estas técnicas están ligadas a cómo se muestra, organiza y destaca el producto dentro del espacio físico o digital. Seguidamente se presentan algunas de las técnicas más utilizadas:
 
-          
-      .bg-full-width.bg-fondo-6.mb-0(data-aos="fade-right")
-        .p-4.p-md-5.mb-0
-          .row
-            .col-md-6.col-8.col-lg-4.mx-auto.mb-4
-              figure
-                img(src='@/assets/curso/temas/tema3/img_10.png', alt='Imagen Decorativa')
+
+    .bg-full-width.bg-fondo-6.mb-0(data-aos="fade-right")
+      .p-4.p-md-5.mb-0
+        .row
+          .col-md-6.col-8.col-lg-4.mx-auto.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema3/img_10.png', alt='Imagen Decorativa')
         
-            .col-md-12.col-sm-12.col-lg-8.mx-auto
-              .tarjeta.bg_azul.mb-5.p-4
-                .tarjeta.p-2
-                  SlyderA(tipo="b")
-                    .row.justify-content-center.align-items-center.my-lg-4
-                      
-                      .col-md-12.col-lg-10.mb-4.mb-md-0
-                        p 
-                          strong Zonas calientes y frías
-                        p Identificación de áreas con mayor o menor tráfico dentro del local.
-                        ul.lista-ul.mb-3
-                          li 
-                            i.fas.fa-check-circle.bg-color-9
-                            | <b>Ejemplo</b>
-                        p
-                        | Ubicar los productos de rotación alta en zonas calientes.
+          .col-md-12.col-sm-12.col-lg-8.mx-auto
+            .tarjeta.bg_azul.mb-5.p-4
+              .tarjeta.p-2
+                SlyderA(tipo="b")
+                  .row.justify-content-center.align-items-center.my-lg-4
+                    
+                    .col-md-12.col-lg-10.mb-4.mb-md-0
+                      p 
+                        strong Zonas calientes y frías
+                      p Identificación de áreas con mayor o menor tráfico dentro del local.
+                      ul.lista-ul.mb-3
+                        li 
+                          i.fas.fa-check-circle.bg-color-9
+                          | <b>Ejemplo</b>
+                      p
+                      | Ubicar los productos de rotación alta en zonas calientes.
 
-                    .row.justify-content-center.align-items-center.my-lg-4
-                      
-                      .col-md-12.col-lg-10.mb-4.mb-md-0
-                        p 
-                          strong Exhibición por niveles
-                        p Colocación de productos a diferentes alturas para influir en la atención.
-                        ul.lista-ul.mb-3
-                          li 
-                            i.fas.fa-check-circle.bg-color-9
-                            | <b>Ejemplo</b>
-                        p
-                        | Productos más rentables al nivel de los ojos.
-
-
-                    .row.justify-content-center.align-items-center.my-lg-4
-                      
-                      .col-md-12.col-lg-10.mb-4.mb-md-0
-                        p 
-                          strong <em>Cross merchandising</em>
-                        p Agrupación de productos complementarios para estimular compras adicionales.
-                        ul.lista-ul.mb-3
-                          li 
-                            i.fas.fa-check-circle.bg-color-9
-                            | <b>Ejemplo</b>
-                        p
-                        | Salsas junto a verduras.
+                  .row.justify-content-center.align-items-center.my-lg-4
+                    
+                    .col-md-12.col-lg-10.mb-4.mb-md-0
+                      p 
+                        strong Exhibición por niveles
+                      p Colocación de productos a diferentes alturas para influir en la atención.
+                      ul.lista-ul.mb-3
+                        li 
+                          i.fas.fa-check-circle.bg-color-9
+                          | <b>Ejemplo</b>
+                      p
+                      | Productos más rentables al nivel de los ojos.
 
 
-                    .row.justify-content-center.align-items-center.my-lg-4
-                      
-                      .col-md-12.col-lg-10.mb-4.mb-md-0
-                        p 
-                          strong Señalización efectiva
-                        p Uso de carteles, etiquetas y guías visuales para facilitar la navegación.
-                        ul.lista-ul.mb-3
-                          li 
-                            i.fas.fa-check-circle.bg-color-9
-                            | <b>Ejemplo</b>
-                        p
-                        | Carteles con precios y flechas direccionales.
+                  .row.justify-content-center.align-items-center.my-lg-4
+                    
+                    .col-md-12.col-lg-10.mb-4.mb-md-0
+                      p 
+                        strong <em>Cross merchandising</em>
+                      p Agrupación de productos complementarios para estimular compras adicionales.
+                      ul.lista-ul.mb-3
+                        li 
+                          i.fas.fa-check-circle.bg-color-9
+                          | <b>Ejemplo</b>
+                      p
+                      | Salsas junto a verduras.
 
 
-                    .row.justify-content-center.align-items-center.my-lg-4
-                      
-                      .col-md-12.col-lg-10.mb-4.mb-md-0
-                        p 
-                          strong <em>Merchandising</em> estacional
-                        p Adaptación en el punto de venta a campañas, festividades y fechas especiales.
-                        ul.lista-ul.mb-3
-                          li 
-                            i.fas.fa-check-circle.bg-color-9
-                            | <b>Ejemplo</b>
-                        p
-                        | Decoraciones navideñas o promociones del Día de la Madre.
+                  .row.justify-content-center.align-items-center.my-lg-4
+                    
+                    .col-md-12.col-lg-10.mb-4.mb-md-0
+                      p 
+                        strong Señalización efectiva
+                      p Uso de carteles, etiquetas y guías visuales para facilitar la navegación.
+                      ul.lista-ul.mb-3
+                        li 
+                          i.fas.fa-check-circle.bg-color-9
+                          | <b>Ejemplo</b>
+                      p
+                      | Carteles con precios y flechas direccionales.
 
-            .col-lg-12            
-              .cajon.bg-02.p-4
-                p.mb-0 Estas técnicas ayudan a maximizar el impacto visual y comercial de cada categoría de producto, incentivando decisiones de compra rápidas y positivas. Además, permiten personalizar la experiencia del cliente según contextos temporales, emocionales o culturales.
+
+                  .row.justify-content-center.align-items-center.my-lg-4
+                    
+                    .col-md-12.col-lg-10.mb-4.mb-md-0
+                      p 
+                        strong <em>Merchandising</em> estacional
+                      p Adaptación en el punto de venta a campañas, festividades y fechas especiales.
+                      ul.lista-ul.mb-3
+                        li 
+                          i.fas.fa-check-circle.bg-color-9
+                          | <b>Ejemplo</b>
+                      p
+                      | Decoraciones navideñas o promociones del Día de la Madre.
+
+          .col-lg-12            
+            .cajon.bg-02.p-4
+              p.mb-0 Estas técnicas ayudan a maximizar el impacto visual y comercial de cada categoría de producto, incentivando decisiones de compra rápidas y positivas. Además, permiten personalizar la experiencia del cliente según contextos temporales, emocionales o culturales.
 
 
 

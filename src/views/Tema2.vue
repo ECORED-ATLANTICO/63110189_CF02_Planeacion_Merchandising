@@ -10,7 +10,7 @@
     .bg-full-width.bg-fondo-4.mb-0
       .p-3.p-md-5.mb-0
     
-        div.mb-0(data-aos="fade-right").titulo-segundo.color-secundario
+        div(data-aos="fade-right").titulo-segundo.color-secundario
           h3.position-relative#t_2_1 2.1	Concepto
 
 
@@ -50,22 +50,22 @@
               div
                 h4 <em>Merchandising</em> de presentación
                 ul.lista-ul--separador.mb-3
-                  li 
+                  li.d-flex
                     i.fas.fa-check-circle.bg-color-9
                     | Exhibición visual atractiva: disposición estratégica para captar la atención del cliente.
-                  li 
+                  li.d-flex
                     i.fas.fa-check-circle.bg-color-9
                     | Ubicación en góndolas: orden lógico y accesible según categorías y hábitos de compra.
-                  li 
+                  li.d-flex
                     i.fas.fa-check-circle.bg-color-9
                     | Iluminación dirigida: luz focal para destacar productos clave.
-                  li 
+                  li.d-flex
                     i.fas.fa-check-circle.bg-color-9
                     | Señalización clara y efectiva: indicadores visuales de precios, secciones o promociones.
-                  li 
+                  li.d-flex
                     i.fas.fa-check-circle.bg-color-9
                     | Colores y ambientación: uso de paletas cromáticas para generar emociones.
-                  li 
+                  li.d-flex
                     i.fas.fa-check-circle.bg-color-9
                     | Diseño y disposición del mobiliario: mobiliario funcional y estético que mejora el recorrido.
           
@@ -73,10 +73,10 @@
             .col-md-12.col-lg-9.mb-2.mb-lg-0
               h5 Ejemplos
               ul.lista-ul--separador.mb-3
-                li 
+                li.d-flex
                   i.fas.fa-check-circle.bg-color-9
                   | Una tienda de ropa organiza sus prendas por color y estación del año, con focos LED sobre las novedades.
-                li 
+                li.d-flex
                   i.fas.fa-check-circle.bg-color-9
                   | Un supermercado ubica productos de impulso cerca de la caja registradora.
             .col-md-4.col-lg-2.mb-2.mb-lg-0.mx-auto
@@ -92,22 +92,22 @@
               div
                 h4 <em>Merchandising</em> de gestión
                 ul.lista-ul--separador.mb-3
-                  li 
+                  li.d-flex
                     i.fas.fa-check-circle.bg-color-9
                     | Administración de inventario: control de entradas y salidas para evitar quiebres o exceso.
-                  li 
+                  li.d-flex
                     i.fas.fa-check-circle.bg-color-9
                     | Rotación de productos: métodos como PEPS para evitar vencimientos.
-                  li 
+                  li.d-flex
                     i.fas.fa-check-circle.bg-color-9
                     | Planificación del surtido: selección estratégica de productos según la demanda y temporada.
-                  li 
+                  li.d-flex
                     i.fas.fa-check-circle.bg-color-9
                     | Coordinación con proveedores: gestión de pedidos, entregas y promociones.
-                  li 
+                  li.d-flex
                     i.fas.fa-check-circle.bg-color-9
                     | Gestión del espacio: ubicación eficiente de productos según rentabilidad.
-                  li 
+                  li
                     i.fas.fa-check-circle.bg-color-9
                     | Análisis de ventas: uso de datos para optimizar decisiones comerciales.
           

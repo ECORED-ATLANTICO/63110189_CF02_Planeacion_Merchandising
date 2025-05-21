@@ -20,9 +20,8 @@
 
     .bg-full-width.bg-fondo-9.mb-0
       .p-4.p-md-5.mb-0
-        div.mb-0(data-aos="fade-right")
+        div.mb-0(data-aos="fade-right").titulo-segundo.color-secundario
           h3.position-relative#t_5_1 5.1	Factores
-            img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
       
           .row.justify-content-center.align-items-center.mb-3
             .col-lg-8.mb-3
@@ -119,9 +118,8 @@
           
     .bg-full-width.bg-fondo-10.mb-0
       .p-4.p-md-5.mb-0
-        div.mb-0(data-aos="fade-right")
+        div.mb-0(data-aos="fade-right").titulo-segundo.color-secundario
           h3.position-relative#t_5_2 5.2	Tipos y características
-            img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
         
           div.tarjeta-horz.mb-5
             img(src='@/assets/curso/temas/tema5/img_08.png', alt='Imagen decorativa')
@@ -129,7 +127,7 @@
               p.mb-0.text-small En el estudio del comportamiento del consumidor, identificar las distintas formas en que las personas abordan sus decisiones de compra, permite a las empresas diseñar estrategias más efectivas de <em>marketing</em> y ventas. A continuación, se presenta la clasificación de los principales tipos de comportamiento de compra observados en los consumidores, describiendo las características clave que los distinguen y permiten entender mejor sus motivaciones al momento de adquirir un producto o servicio.
 
           .row.justify-content-center
-            .col-xl-3.col-lg-7.col-md-6.col-11.mb-4.mb-xl-0
+            .col-xl-3.col-lg-6.col-md-6.col-11.mb-4.mb-xl-0
               .crd_hover_txt(data-aos="flip-left")
                 .crd_hover_txt--img
                   figure
@@ -138,7 +136,7 @@
                   h4.mb-3.text-center Impulsivo
                   p.mb-0 El cliente realiza una compra sin haberla planificado, guiado por un estímulo momentáneo.
 
-            .col-xl-3.col-lg-7.col-md-6.col-11.mb-4.mb-xl-0
+            .col-xl-3.col-lg-6.col-md-6.col-11.mb-4.mb-xl-0
               .crd_hover_txt(data-aos="flip-left")
                 .crd_hover_txt--img
                   figure
@@ -147,7 +145,7 @@
                   h4.mb-3.text-center Planificado
                   p.mb-0 El consumidor llega al establecimiento con una intención clara de compra, basada en una necesidad identificada previamente.
 
-            .col-xl-3.col-lg-7.col-md-6.col-11.mb-4.mb-xl-0
+            .col-xl-3.col-lg-6.col-md-6.col-11.mb-4.mb-xl-0
               .crd_hover_txt(data-aos="flip-left")
                 .crd_hover_txt--img
                   figure
@@ -156,7 +154,7 @@
                   h4.mb-3.text-center Exploratorio
                   p.mb-0 Se da cuando el cliente recorre el local sin una intención concreta, con disposición a descubrir novedades o promociones.
 
-            .col-xl-3.col-lg-7.col-md-6.col-11.mb-4.mb-xl-0
+            .col-xl-3.col-lg-6.col-md-6.col-11.mb-4.mb-xl-0
               .crd_hover_txt(data-aos="flip-left")
                 .crd_hover_txt--img
                   figure

@@ -10,45 +10,43 @@
     .bg-full-width.bg-fondo-4.mb-0
       .p-3.p-md-5.mb-0
     
-        div.mb-0(data-aos="fade-right")
+        div.mb-0(data-aos="fade-right").titulo-segundo.color-secundario
           h3.position-relative#t_2_1 2.1	Concepto
-            img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
-      
 
-          .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
-            .col-7.col-md-5.col-lg-4.mb-4
-              figure
-                img(src='@/assets/curso/temas/tema2/img_01.png', alt='Imagen decorativa')
-            .col-lg-8.mb-4
-              .bloque-texto-b.mb-3
-                .bloque-texto-b__texto
-                  i.fas.fa-quote-left
-                  p.mb-0
-                    b El <em>merchandising</em> es el conjunto de técnicas aplicadas en el punto de venta con el objetivo de optimizar la presentación de los productos, influir en la decisión de compra del consumidor y maximizar la rentabilidad del negocio. Se fundamenta en principios de <em>marketing</em>, psicología del consumidor y gestión comercial.” 
-                  p.text-right 
-                    <br>  (Gómez, 2020). 
-                  i.fas.fa-quote-right
 
-              p Los principios básicos del <em>merchandising</em> incluyen: visibilidad, accesibilidad, atractivo visual y coherencia con la marca (Solé, 2017).
+        .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
+          .col-7.col-md-5.col-lg-4.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema2/img_01.png', alt='Imagen decorativa')
+          .col-lg-8.mb-4
+            .bloque-texto-b.mb-3
+              .bloque-texto-b__texto
+                i.fas.fa-quote-left
+                p.mb-0
+                  b El <em>merchandising</em> es el conjunto de técnicas aplicadas en el punto de venta con el objetivo de optimizar la presentación de los productos, influir en la decisión de compra del consumidor y maximizar la rentabilidad del negocio. Se fundamenta en principios de <em>marketing</em>, psicología del consumidor y gestión comercial.” 
+                p.text-right 
+                  <br>  (Gómez, 2020). 
+                i.fas.fa-quote-right
 
-              separador
-          
-              div.mb-5(data-aos="fade-right")
-                h3.position-relative#t_2_2 2.2	Tipos y características
-                  img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
+            p Los principios básicos del <em>merchandising</em> incluyen: visibilidad, accesibilidad, atractivo visual y coherencia con la marca (Solé, 2017).
 
-              .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in")
-                .col-lg-12.mb-0
-                  p.mb-0 A continuación, se presentan los principales tipos de <em>merchandising</em> utilizados en el punto de venta, clasificados según su función. Cada tipo incluye sus características estructurales y operativas, así como ejemplos prácticos que ilustran su aplicación en contextos reales del comercio minorista.
+            separador
+        
+            div.mb-5(data-aos="fade-right").titulo-segundo.color-secundario
+              h3.position-relative#t_2_2 2.2	Tipos y características
+
+            .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in")
+              .col-lg-12.mb-0
+                p.mb-0 A continuación, se presentan los principales tipos de <em>merchandising</em> utilizados en el punto de venta, clasificados según su función. Cada tipo incluye sus características estructurales y operativas, así como ejemplos prácticos que ilustran su aplicación en contextos reales del comercio minorista.
 
     .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
       TabsC.color-acento-contenido.mb-5
         .py-3.py-md-4(titulo="<em>Merchandising</em> de presentación").p-3
           .row.justify-content-center
-            .col-md-6.col-lg-5.mb-4
+            .col-md-6.col-xl-5.mb-4
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema2/img_02.png', alt='').img400.m-auto
-            .col-lg-7.mb-2.mb-lg-0
+            .col-xl-7.mb-2.mb-lg-0
               div
                 h4 <em>Merchandising</em> de presentación
                 ul.lista-ul--separador.mb-3

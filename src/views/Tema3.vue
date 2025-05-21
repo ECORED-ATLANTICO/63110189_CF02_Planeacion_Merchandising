@@ -23,9 +23,8 @@
 
           separador
 
-          div.mb-5(data-aos="fade-right")
+          div.mb-5(data-aos="fade-right").titulo-segundo.color-secundario
             h3.position-relative#t_3_1 3.1	Concepto
-              img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
         
           .col-lg-9.mb-4
             .bloque-texto-b.mb-3
@@ -113,114 +112,113 @@
     separador
 
     div
-      div.mb-5(data-aos="fade-right")
+      div.mb-5(data-aos="fade-right").titulo-segundo.color-secundario
         h3.position-relative#t_3_2 3.2	Tipos y características
-          img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
 
-        p.mb-3 Existen distintos tipos de <em>merchandising</em>, clasificados según su función y aplicación. Seguidamente se presenta una tabla con los principales tipos:
-        .row
-          .col-md-12.col-sm-12.mx-auto
-            .tarjeta.bg_azul.mb-5.p-3
-              .tarjeta.p-2
-                SlyderA(tipo="b")
-                  .row.justify-content-center.align-items-center.my-lg-4
-                    
-                    .col-md-12.col-lg-5
-                      figure
-                        img(src='@/assets/curso/temas/tema3/img_04.png', alt='Imagen Decorativa')
-                    .col-md-12.col-lg-7.mb-4.mb-md-0
-                      p 
-                        strong Visual
-                      p Características 
-                      ul.lista-ul.mb-3
-                        li 
-                          i.fas.fa-check-circle.bg-color-9
-                          | Se enfoca en la presentación estética y atractiva del producto y el entorno.
-                      p Aplicación en punto de venta 
-                      ul.lista-ul.mb-3
-                        li 
-                          i.fas.fa-check-circle.bg-color-9
-                          | Exhibiciones llamativas, uso de colores, iluminación, vitrinas.
-
-
-                  .row.justify-content-center.align-items-center.my-lg-4
-                    
-                    .col-md-12.col-lg-5
-                      figure
-                        img(src='@/assets/curso/temas/tema3/img_05.png', alt='Imagen Decorativa')
-                    .col-md-12.col-lg-7.mb-4.mb-md-0
-                      p 
-                        strong Seductor
-                      p Características 
-                      ul.lista-ul.mb-3
-                        li 
-                          i.fas.fa-check-circle.bg-color-9
-                          | Utiliza estímulos sensoriales y emocionales para generar deseo de compra.
-                      p Aplicación en punto de venta 
-                      ul.lista-ul.mb-3
-                        li 
-                          i.fas.fa-check-circle.bg-color-9
-                          | Aromas, música, degustaciones, <em>marketing</em> sensorial
+      p.mb-3 Existen distintos tipos de <em>merchandising</em>, clasificados según su función y aplicación. Seguidamente se presenta una tabla con los principales tipos:
+      .row
+        .col-md-12.col-sm-12.mx-auto
+          .tarjeta.bg_azul.mb-5.p-4
+            .tarjeta.p-2
+              SlyderA(tipo="b")
+                .row.justify-content-center.align-items-center.my-lg-4
+                  
+                  .col-md-12.col-lg-5
+                    figure
+                      img(src='@/assets/curso/temas/tema3/img_04.png', alt='Imagen Decorativa')
+                  .col-md-12.col-lg-7.mb-4.mb-md-0
+                    p 
+                      strong Visual
+                    p Características 
+                    ul.lista-ul.mb-3
+                      li 
+                        i.fas.fa-check-circle.bg-color-9
+                        | Se enfoca en la presentación estética y atractiva del producto y el entorno.
+                    p Aplicación en punto de venta 
+                    ul.lista-ul.mb-3
+                      li 
+                        i.fas.fa-check-circle.bg-color-9
+                        | Exhibiciones llamativas, uso de colores, iluminación, vitrinas.
 
 
-                  .row.justify-content-center.align-items-center.my-lg-4
-                    
-                    .col-md-12.col-lg-5
-                      figure
-                        img(src='@/assets/curso/temas/tema3/img_06.png', alt='Imagen Decorativa')
-                    .col-md-12.col-lg-7.mb-4.mb-md-0
-                      p 
-                        strong Estratégico
-                      p Características 
-                      ul.lista-ul.mb-3
-                        li 
-                          i.fas.fa-check-circle.bg-color-9
-                          | Se basa en datos y análisis para tomar decisiones de ubicación y promoción de productos.
-                      p Aplicación en punto de venta 
-                      ul.lista-ul.mb-3
-                        li 
-                          i.fas.fa-check-circle.bg-color-9
-                          | Planogramas, rotación de categorías, zonas calientes y frías.
+                .row.justify-content-center.align-items-center.my-lg-4
+                  
+                  .col-md-12.col-lg-5
+                    figure
+                      img(src='@/assets/curso/temas/tema3/img_05.png', alt='Imagen Decorativa')
+                  .col-md-12.col-lg-7.mb-4.mb-md-0
+                    p 
+                      strong Seductor
+                    p Características 
+                    ul.lista-ul.mb-3
+                      li 
+                        i.fas.fa-check-circle.bg-color-9
+                        | Utiliza estímulos sensoriales y emocionales para generar deseo de compra.
+                    p Aplicación en punto de venta 
+                    ul.lista-ul.mb-3
+                      li 
+                        i.fas.fa-check-circle.bg-color-9
+                        | Aromas, música, degustaciones, <em>marketing</em> sensorial
 
 
-                  .row.justify-content-center.align-items-center.my-lg-4
-                    
-                    .col-md-12.col-lg-5
-                      figure
-                        img(src='@/assets/curso/temas/tema3/img_07.png', alt='Imagen Decorativa')
-                    .col-md-12.col-lg-7.mb-4.mb-md-0
-                      p 
-                        strong Digital
-                      p Características 
-                      ul.lista-ul.mb-3
-                        li 
-                          i.fas.fa-check-circle.bg-color-9
-                          | Emplea el uso de tecnología para mejorar la experiencia del comprador.
-                      p Aplicación en punto de venta 
-                      ul.lista-ul.mb-3
-                        li 
-                          i.fas.fa-check-circle.bg-color-9
-                          | Pantallas interactivas, códigos QR, Apps de realidad aumentada.
+                .row.justify-content-center.align-items-center.my-lg-4
+                  
+                  .col-md-12.col-lg-5
+                    figure
+                      img(src='@/assets/curso/temas/tema3/img_06.png', alt='Imagen Decorativa')
+                  .col-md-12.col-lg-7.mb-4.mb-md-0
+                    p 
+                      strong Estratégico
+                    p Características 
+                    ul.lista-ul.mb-3
+                      li 
+                        i.fas.fa-check-circle.bg-color-9
+                        | Se basa en datos y análisis para tomar decisiones de ubicación y promoción de productos.
+                    p Aplicación en punto de venta 
+                    ul.lista-ul.mb-3
+                      li 
+                        i.fas.fa-check-circle.bg-color-9
+                        | Planogramas, rotación de categorías, zonas calientes y frías.
 
 
-                  .row.justify-content-center.align-items-center.my-lg-4
-                    
-                    .col-md-12.col-lg-5
-                      figure
-                        img(src='@/assets/curso/temas/tema3/img_08.png', alt='Imagen Decorativa')
-                    .col-md-12.col-lg-7.mb-4.mb-md-0
-                      p 
-                        strong Promocional
-                      p Características 
-                      ul.lista-ul.mb-3
-                        li 
-                          i.fas.fa-check-circle.bg-color-9
-                          | Apoya campañas o lanzamientos específicos mediante ofertas o material POP.
-                      p Aplicación en punto de venta 
-                      ul.lista-ul.mb-3
-                        li 
-                          i.fas.fa-check-circle.bg-color-9
-                          | Stands temporales, material gráfico, regalos por compra.
+                .row.justify-content-center.align-items-center.my-lg-4
+                  
+                  .col-md-12.col-lg-5
+                    figure
+                      img(src='@/assets/curso/temas/tema3/img_07.png', alt='Imagen Decorativa')
+                  .col-md-12.col-lg-7.mb-4.mb-md-0
+                    p 
+                      strong Digital
+                    p Características 
+                    ul.lista-ul.mb-3
+                      li 
+                        i.fas.fa-check-circle.bg-color-9
+                        | Emplea el uso de tecnología para mejorar la experiencia del comprador.
+                    p Aplicación en punto de venta 
+                    ul.lista-ul.mb-3
+                      li 
+                        i.fas.fa-check-circle.bg-color-9
+                        | Pantallas interactivas, códigos QR, Apps de realidad aumentada.
+
+
+                .row.justify-content-center.align-items-center.my-lg-4
+                  
+                  .col-md-12.col-lg-5
+                    figure
+                      img(src='@/assets/curso/temas/tema3/img_08.png', alt='Imagen Decorativa')
+                  .col-md-12.col-lg-7.mb-4.mb-md-0
+                    p 
+                      strong Promocional
+                    p Características 
+                    ul.lista-ul.mb-3
+                      li 
+                        i.fas.fa-check-circle.bg-color-9
+                        | Apoya campañas o lanzamientos específicos mediante ofertas o material POP.
+                    p Aplicación en punto de venta 
+                    ul.lista-ul.mb-3
+                      li 
+                        i.fas.fa-check-circle.bg-color-9
+                        | Stands temporales, material gráfico, regalos por compra.
 
         .col-lg-12.mb-2            
           .cajon.bg-03.p-4
@@ -228,15 +226,14 @@
 
     separador
 
-    div.mb-0(data-aos="fade-right")
+    div(data-aos="fade-right").titulo-segundo.color-secundario
       h3.position-relative#t_3_3 3.3 Técnicas de fijación
-        img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
       
 
-      div.tarjeta-horz.mb-4(data-aos="flip-up")
-        img(src='@/assets/curso/temas/tema3/img_09.png', alt='Imagen decorativa')
-        div.texto-tarjeta
-          p.mb-0 Las técnicas de fijación de <em>merchandising</em> son estrategias puntuales que buscan posicionar el producto en la mente del consumidor, fomentar la compra y generar una experiencia diferenciadora. Estas técnicas están ligadas a cómo se muestra, organiza y destaca el producto dentro del espacio físico o digital. Seguidamente se presentan algunas de las técnicas más utilizadas:
+    div.tarjeta-horz.mb-4(data-aos="flip-up")
+      img(src='@/assets/curso/temas/tema3/img_09.png', alt='Imagen decorativa')
+      div.texto-tarjeta
+        p.mb-0 Las técnicas de fijación de <em>merchandising</em> son estrategias puntuales que buscan posicionar el producto en la mente del consumidor, fomentar la compra y generar una experiencia diferenciadora. Estas técnicas están ligadas a cómo se muestra, organiza y destaca el producto dentro del espacio físico o digital. Seguidamente se presentan algunas de las técnicas más utilizadas:
 
           
       .bg-full-width.bg-fondo-6.mb-0(data-aos="fade-right")
@@ -247,7 +244,7 @@
                 img(src='@/assets/curso/temas/tema3/img_10.png', alt='Imagen Decorativa')
         
             .col-md-12.col-sm-12.col-lg-8.mx-auto
-              .tarjeta.bg_azul.mb-5.p-3
+              .tarjeta.bg_azul.mb-5.p-4
                 .tarjeta.p-2
                   SlyderA(tipo="b")
                     .row.justify-content-center.align-items-center.my-lg-4

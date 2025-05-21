@@ -15,9 +15,8 @@
     
     .bg-full-width.bg-fondo-1
       .p-4.p-md-5
-        div.mb-5(data-aos="fade-right")
+        div.mb-5(data-aos="fade-right").titulo-segundo.color-secundario
           h3.position-relative#t_1_1 1.1	Concepto
-            img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
       
         .col-lg-12
           .bloque-texto-g.bloque-texto-g.p-3.p-sm-4.p-md-5.color-secundario
@@ -30,9 +29,9 @@
       separador
 
       .p-4.p-md-5
-        div.mb-5(data-aos="fade-right")
+        div.mb-5(data-aos="fade-right").titulo-segundo.color-secundario
           h3.position-relative#t_1_2 1.2	Importancia
-            img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
+          
 
         .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
           .col-lg-4.col-md-8.mb-4
@@ -98,9 +97,8 @@
     separador
 
     div
-      div.mb-5(data-aos="fade-right")
+      div.mb-5(data-aos="fade-right").titulo-segundo.color-secundario
         h3.position-relative#t_1_3 1.3	Pasos
-          img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
 
       div.tarjeta-horz.mb-3
         img(src='@/assets/curso/temas/tema1/img_05.png', alt='Imagen decorativa')
@@ -128,7 +126,7 @@
                     img(src='@/assets/curso/temas/tema1/img_07.png', alt='').img125
                 .col-lg
                   h3 Recolección y análisis de información
-                  p Se recopilan datos relevantes: comportamiento de compra, preferencias de clientes, ventas por producto, tráfico en el local, entre otros.
+                  p.text-left Se recopilan datos relevantes: comportamiento de compra, preferencias de clientes, ventas por producto, tráfico en el local, entre otros.
 
               .row.align-items-center
                 .col-lg
@@ -142,14 +140,14 @@
                 .col-auto
                   figure(data-aos="zoom-in")
                     img(src='@/assets/curso/temas/tema1/img_09.png', alt='').img125
-                .col-lg
-                  h3 Evaluación de alternativas
-                  p Se analizan pros y contras de cada opción, considerando costos, tiempos, impacto, viabilidad y coherencia con la estrategia del negocio.
+                .col-lg.text-left
+                  h3.text-left Evaluación de alternativas
+                  p.text-left Se analizan pros y contras de cada opción, considerando costos, tiempos, impacto, viabilidad y coherencia con la estrategia del negocio.
 
               .row.align-items-center
                 .col-lg
-                  h3 Selección de la mejor alternativa
-                  p Se escoge la opción más adecuada para alcanzar el objetivo propuesto, buscando siempre el mayor beneficio posible con el menor riesgo.
+                  h3.text-left Selección de la mejor alternativa
+                  p.text-left Se escoge la opción más adecuada para alcanzar el objetivo propuesto, buscando siempre el mayor beneficio posible con el menor riesgo.
                 .col-auto
                   figure(data-aos="zoom-in")
                     img(src='@/assets/curso/temas/tema1/img_10.png', alt='').img125
@@ -159,13 +157,13 @@
                   figure(data-aos="zoom-in")
                     img(src='@/assets/curso/temas/tema1/img_11.png', alt='').img125
                 .col-lg
-                  h3 Implementación
-                  p Se lleva a cabo la decisión tomada: cambio físico del <em>layout</em>, ejecución de campañas, señalización, entre otros.
+                  h3.text-left Implementación
+                  p.text-left Se lleva a cabo la decisión tomada: cambio físico del <em>layout</em>, ejecución de campañas, señalización, entre otros.
 
               .row.align-items-center
                 .col-lg
-                  h3 Evaluación de resultados
-                  p Se mide el impacto de la decisión: aumento en ventas, mejora en la experiencia del cliente, incremento en visitas al punto de venta, etc.
+                  h3.text-left Evaluación de resultados
+                  p.text-left Se mide el impacto de la decisión: aumento en ventas, mejora en la experiencia del cliente, incremento en visitas al punto de venta, etc.
                 .col-auto
                   figure(data-aos="zoom-in")
                     img(src='@/assets/curso/temas/tema1/img_13_1.png', alt='').img125
@@ -178,32 +176,31 @@
         p Estas etapas coinciden con los modelos propuestos por autores como Robbins y Coulter (2021), quienes destacan que una decisión bien estructurada implica identificar problemas con claridad, evaluar la información disponible y actuar con base en criterios objetivos. Además, es fundamental que todo proceso de toma de decisiones esté guiado por principios éticos, ya que cada acción tomada en el punto de venta puede afectar no solo los resultados del negocio, sino también la experiencia y el respeto hacia los clientes, colaboradores y la comunidad en general.
 
 
-    .row.tabla-a.color-acento-botones
-      .col-10.mx-auto
-        .titulo-sexto.mb-4
-          h5 Tabla 1. 
-          span.text-dark
-            i Etapas del proceso de decisión
-        table
-          caption Fuente: Kotler, P., &amp; Keller, K. L. (2016)
-          thead
-            tr
-              th.tabla-bg-01.text-white Tipo de decisión
-              th.tabla-bg-01.text-white Ejemplo en punto de venta
-              th.tabla-bg-01.text-white Frecuencia
-          tbody
-            tr.bg-white
-              td Operativas
-              td Reposición de productos en estantería, atención al cliente.
-              td Diarias o semanales
-            tr.tabla-bg-02
-              td Tácticas
-              td Cambios de <em>layout</em>, ajustes de precios, promociones.
-              td Mensuales
-            tr.bg-white
-              td Estratégicas
-              td Remodelación del punto de venta, implementación de CRM.
-              td Anuales o por ciclo de negocio
+    .tabla-a.color-acento-botones
+      .titulo-sexto.mb-4
+        h5 Tabla 1. 
+        span.text-dark
+          i Etapas del proceso de decisión
+      table
+        caption Fuente: Kotler, P., &amp; Keller, K. L. (2016)
+        thead
+          tr
+            th.tabla-bg-01.text-white Tipo de decisión
+            th.tabla-bg-01.text-white Ejemplo en punto de venta
+            th.tabla-bg-01.text-white Frecuencia
+        tbody
+          tr.bg-white
+            td Operativas
+            td Reposición de productos en estantería, atención al cliente.
+            td Diarias o semanales
+          tr.tabla-bg-02
+            td Tácticas
+            td Cambios de <em>layout</em>, ajustes de precios, promociones.
+            td Mensuales
+          tr.bg-white
+            td Estratégicas
+            td Remodelación del punto de venta, implementación de CRM.
+            td Anuales o por ciclo de negocio
 
     .bg-full-width.bg-fondo-3
       .p-4.p-md-5

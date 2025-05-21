@@ -9,9 +9,8 @@
 
     .bg-full-width.bg-fondo-9.mb-0
       .p-4.p-md-5.mb-0
-        div.mb-0(data-aos="fade-right")
+        div.mb-0(data-aos="fade-right").titulo-segundo.color-secundario
           h3.position-relative#t_6_1 6.1	Concepto
-            img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
 
         div.tarjeta-horz.mb-5
           img(src='@/assets/curso/temas/tema6/img_01.png', alt='Imagen decorativa')
@@ -20,9 +19,8 @@
         
         separador
 
-        div.mb-0(data-aos="fade-right")
+        div.mb-0(data-aos="fade-right").titulo-segundo.color-secundario
           h3.position-relative#t_6_2 6.2	Tipos y características
-            img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
 
 
           p.mb-0 La experiencia del cliente en el punto de venta se construye a partir de diversas estrategias que, aplicadas de manera coherente, influyen en el comportamiento del consumidor, incrementan el tiempo de permanencia y fomentan la fidelización. Estas estrategias abarcan tanto el diseño físico del espacio como el uso de estímulos sensoriales y tecnológicos, así como la interacción humana. A continuación, se presentan los principales tipos y características de las estrategias que contribuyen a una experiencia de compra memorable y efectiva.
@@ -47,9 +45,8 @@
 
     separador
 
-    div.mb-0(data-aos="fade-right")
+    div.mb-0(data-aos="fade-right").titulo-segundo.color-secundario
       h3.position-relative#t_6_3 6.3	Planogramas
-        img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
 
       .bg-full-width.bg-fondo-11.mb-0
         .p-4.p-md-5.mb-0
@@ -179,9 +176,8 @@
     
     .bg-full-width.bg-fondo-12.mb-0
       .p-4.p-md-5.mb-0
-        div.mb-0(data-aos="fade-right")
+        div.mb-0(data-aos="fade-right").titulo-segundo.color-secundario
           h3.position-relative#t_6_4 6.4 Teoría del color
-            img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
 
           .row.justify-content-center.align-items-center.mb-0
             .col-md-6.col-lg-4.mb-4.p-4
@@ -260,9 +256,8 @@
 
     .bg-full-width.bg-fondo-13.mb-0
       .p-4.p-md-5.mb-0
-        div.mb-4(data-aos="fade-right")
+        div.mb-4(data-aos="fade-right").titulo-segundo.color-secundario
           h3.position-relative#t_6_5 6.5 Escaparatismo
-            img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
 
           p.mb-4 El escaparatismo es una herramienta clave en el <em>marketing</em> visual que busca captar la atención del cliente desde el exterior del punto de venta. Uno de sus elementos principales es el diseño visual, que combina aspectos como colores, formas, estilos e iluminación para reflejar la identidad del negocio y atraer al público desde la primera mirada (González, 2019). Se debe tener en cuenta:
 

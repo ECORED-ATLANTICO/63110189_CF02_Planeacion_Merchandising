@@ -73,6 +73,9 @@ figcaption
     z-index: 10
     position: relative
 
+.ordenar_tarjeta_pasos
+  text-align: left!important
+
 @media screen and (max-width: $bp-max-sm)
   .ordenar_tarjeta_pasos
     .col-lg
@@ -203,7 +206,6 @@ figcaption
 
 .bg-color-9
   color: #4A732C
-  text-color: #fff
 
 .bg_azul
   background-image: url("../assets/curso/temas/tema3/bg_slyder.png")
@@ -264,6 +266,19 @@ figcaption
 .bg-color-white
   background-color: #FAFAFA
   border-radius: 10px
+
+@media screen and (max-width:768px)
+  .img-infografica__item
+    top: 55%!important
+  .tarjeta-horz div.texto-tarjeta
+    margin: -1em 0 auto 0
+
+@media (min-width:769px) and (max-width:1024px)
+  .img-infografica__item
+    top: 60%!important
+
+.linea-tiempo-d__item__content__title
+  height: auto
 
 ///////// Card hover --------------------------------------
 .crd_hover_txt
